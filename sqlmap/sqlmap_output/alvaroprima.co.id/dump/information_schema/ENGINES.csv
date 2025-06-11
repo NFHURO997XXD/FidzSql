@@ -1,0 +1,11 @@
+XA,SUPPORT,ENGINE,COMMENT,SAVEPOINTS,TRANSACTIONS
+YES,YES,ROCKSDB,RocksDB storage engine,YES,YES
+NO,YES,MRG_MyISAM,Collection of identical MyISAM tables,NO,NO
+NO,YES,MEMORY,"Hash based, stored in memory, useful for temporary tables",NO,NO
+NO,YES,Aria,Crash-safe tables with MyISAM heritage. Used for internal temporary tables and privilege tables,NO,NO
+NO,YES,MyISAM,Non-transactional engine with good performance and small data footprint,NO,NO
+NO,YES,SEQUENCE,Generated tables filled with sequential values,YES,YES
+YES,DEFAULT,InnoDB,"Supports transactions, row-level locking, foreign keys and encryption for tables",YES,YES
+NO,YES,PERFORMANCE_SCHEMA,Performance Schema,NO,NO
+NO,YES,CSV,Stores tables as CSV files,NO,NO
+

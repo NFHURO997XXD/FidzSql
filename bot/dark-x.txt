@@ -1,0 +1,153 @@
+NOTE: TOOLS INI TIDAK DISUSUN UNTUK TUJUAN KRIMINALITAS.
+
+DESKRIPSI DAN FUNGSI FITUR TOOLS
+
+1. DDOS ATTACK LAYER 7 METHOD
+Metode serangan DDoS yang menargetkan lapisan aplikasi dari
+model OSI. Digunakan untuk membanjiri situs web dengan 
+permintaan palsu. Jika server webnya kecil dan web tidak 
+mempunyai firewall seperti cloudflare dan lain-lain maka 
+web akan down/offline, berskala dengan jumlah penyerang.
+
+2. DDOS ATTACK LAYER 4 METHOD
+Metode serangan DDoS yang menargetkan lapisan transport 
+dari model OSI. Bisa juga digunakan untuk memutus koneksi 
+WI-FI.
+
+3. SITE VULNERABILITY SCANNER
+Alat untuk memindai dan menemukan kerentanan pada situs 
+web.
+
+4. IP / DOMAIN LOOKUP
+Alat untuk mencari informasi dan vulnerability IP atau 
+domain.
+
+5. SITE TRAFFIC MANIPULATOR
+Alat untuk menambah/memanipulasi pengunjung atau lalu 
+lintas situs web.
+
+6. RDP KALI LINUX SSH
+Remote Desktop Protocol menggunakan SSH untuk mengakses 
+Kali Linux secara virtual tanpa perlu menginstalnya.
+
+7. RDP KALI LINUX DESKTOP
+Remote Desktop Protocol untuk mengakses desktop Kali Linux
+menggunakan browser.
+
+8. FILE DATABASE LEAKER
+Alat untuk mengekspos atau membocorkan database file dari 
+situs web.
+
+9. ACCOUNT SCRAPER
+Alat untuk mengumpulkan akun email, media sosial dari situs
+web. Hal ini mempermudah Bug Hunter untuk melaporkan bug 
+temuannya ke admin website.
+
+10. INSTAGRAM STALKER
+Alat untuk melihat data publik dari akun Instagram.
+
+11. IP INFORMATION
+Alat untuk mendapatkan informasi terkait alamat IP.
+
+12. CHAT AI TERMINAL
+Alat untuk berkomunikasi dengan AI melalui terminal.
+
+13. LINUX STYLE FOR TERMUX
+Menyesuaikan tampilan Termux dengan gaya Linux.
+
+14. BRUTEFORCE ZIP PASSWORD
+Alat untuk melakukan serangan brute force pada file ZIP 
+yang dilindungi kata sandi. Gunakan wordlist (angka.txt) 
+jika memungkinkan passwordnya berupa angka.
+
+15. USERNAME TRACKER
+Alat untuk melacak penggunaan username di berbagai platform
+media sosial.
+
+16. SPAM CALL & WHATSAPP
+Alat untuk mengirim spam OTP dan telepon secara brutal ke 
+nomor target.
+
+17. SPAM SENDER EMAIL
+Alat untuk mengirim spam pesan ke email target. Disarankan 
+tidak mengirim dengan jumlah lebih dari 10 agar notifikasi 
+benar-benar terlihat ke email target dan tidak terdeteksi 
+spam.
+
+18. SPAM BUG API TELEGRAM
+Alat untuk mengirim bug melalui API Telegram.
+
+19. SPAM NOTIF PAIRING NO LIMIT
+Alat untuk mengirim spam notifikasi pairing WhatsApp tanpa
+batas khusus +62.
+
+20. SPAM NOTIF PAIRING ALL COUNTRY
+Alat untuk mengirim spam notifikasi pairing WhatsApp dan 
+cocok untuk semua nomor luar negeri.
+
+21. SPAM MAIL MOBILE LEGENDS
+Alat untuk mengirim spam ke mail Mobile Legends.
+
+22. AUTO FOLLOWERS INSTAGRAM
+Alat untuk meningkatkan jumlah pengikut Instagram secara 
+otomatis menggunakan akun tumbal.
+
+23. AUTO LIKE INSTAGRAM
+Alat untuk memberikan 50 like otomatis postingan Instagram 
+tanpa login dan tanpa akun tumbal. Alat ini hanya bisa 
+digunakan 1x dalam 24 jam.
+
+24. CCTV FINDER V1
+Alat untuk mencari CCTV kota/negara menggunakan metode 
+google dork.
+
+25. CCTV FINDER V2
+Alat untuk mencari CCTV negara menggunakan metode IP & port
+yang terdaftar di situs insecam.org.
+
+26. SCRIPT DEFACE GENERATOR
+Alat untuk membuat script deface tanpa harus bisa ngoding.
+
+27. RANSOMWARE TERMUX GENERATOR
+Alat untuk menghasilkan virus ransomware yang bisa mengunci
+termux orang lain dengan metode mengirimkan file.py ke 
+target dengan berpura-pura bagi2 sc gratis. Jangan lupa 
+kodenya di enkripsi/obfuscate biar passwordnya gak kebaca.
+
+28. PYTHON SIMPLE ENCODE
+Alat untuk melakukan enkripsi/obfuscate dan mengamankan 
+script anda dari bocil recode.
+
+29. DECODE BASE16,32,64
+Alat untuk mendekode python base16, base32, dan base64.
+
+30. BOT GET NIK
+Bot Telegram untuk mengambil Nomor Induk Kependudukan (NIK)
+dari nomor telepon. Bisa juga untuk mencari informasi 
+sensitif lainnya.
+
+31. NIK CHECKER
+Alat untuk menguraikan data dan memvalidasi Nomor Induk
+Kependudukan (NIK).
+
+32. TEXT TO VOICE CONVERTER
+Alat untuk mengubah teks menjadi suara.
+
+33. FAKE EMAIL VERIFICATION
+Alat untuk membuat email palsu dan memungkinkan untuk 
+membuat banyak akun di suatu web tanpa harus menggunakan 
+email pribadi & lebih menjaga privasi pengguna.
+
+34. TIKTOK 4K DOWNLOADER
+Alat untuk mengunduh video TikTok dalam resolusi full HD.
+
+35. AI BOT WHATSAPP
+Mengubah nomor WhatsApp anda menjadi Bot AI yang bisa 
+menjawab semua pertanyaan. Awali semua pertanyaan dengan
+kata .ai (contoh: .ai apa raflesia itu?).
+
+36. TOOLS INFORMATION
+Deskripsi dari semua fitur tools.
+
+37. EXIT PROGRAM
+Menghentikan atau keluar dari program.

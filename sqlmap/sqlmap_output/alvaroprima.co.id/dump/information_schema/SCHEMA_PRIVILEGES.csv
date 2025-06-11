@@ -1,0 +1,21 @@
+GRANTEE,IS_GRANTABLE,TABLE_SCHEMA,TABLE_CATALOG,PRIVILEGE_TYPE
+'u410070197_alvaro_db'@'localhost',NO,u410070197_alvaro,def,SELECT
+'u410070197_alvaro_db'@'localhost',NO,u410070197_alvaro,def,INSERT
+'u410070197_alvaro_db'@'localhost',NO,u410070197_alvaro,def,UPDATE
+'u410070197_alvaro_db'@'localhost',NO,u410070197_alvaro,def,DELETE
+'u410070197_alvaro_db'@'localhost',NO,u410070197_alvaro,def,CREATE
+'u410070197_alvaro_db'@'localhost',NO,u410070197_alvaro,def,DROP
+'u410070197_alvaro_db'@'localhost',NO,u410070197_alvaro,def,REFERENCES
+'u410070197_alvaro_db'@'localhost',NO,u410070197_alvaro,def,INDEX
+'u410070197_alvaro_db'@'localhost',NO,u410070197_alvaro,def,ALTER
+'u410070197_alvaro_db'@'localhost',NO,u410070197_alvaro,def,CREATE TEMPORARY TABLES
+'u410070197_alvaro_db'@'localhost',NO,u410070197_alvaro,def,LOCK TABLES
+'u410070197_alvaro_db'@'localhost',NO,u410070197_alvaro,def,EXECUTE
+'u410070197_alvaro_db'@'localhost',NO,u410070197_alvaro,def,CREATE VIEW
+'u410070197_alvaro_db'@'localhost',NO,u410070197_alvaro,def,SHOW VIEW
+'u410070197_alvaro_db'@'localhost',NO,u410070197_alvaro,def,CREATE ROUTINE
+'u410070197_alvaro_db'@'localhost',NO,u410070197_alvaro,def,ALTER ROUTINE
+'u410070197_alvaro_db'@'localhost',NO,u410070197_alvaro,def,EVENT
+'u410070197_alvaro_db'@'localhost',NO,u410070197_alvaro,def,TRIGGER
+'u410070197_alvaro_db'@'localhost',NO,u410070197_alvaro,def,DELETE HISTORY
+

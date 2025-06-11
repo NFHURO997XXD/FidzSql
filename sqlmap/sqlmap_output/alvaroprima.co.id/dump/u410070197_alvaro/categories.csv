@@ -1,0 +1,27 @@
+id,parent_id,images,created_by,created_on,category_name,category_order
+4,0,categories_picture/Hightest_Logo.png,NULL,2020-04-14 04:42:52,Hightest,1
+6,0,categories_picture/Detec_Logo.png,NULL,2020-04-14 04:43:41,Detec,3
+7,0,categories_picture/Giasco_Logo.png,NULL,2020-04-14 04:44:00,Giasco,4
+8,0,categories_picture/Checkmate_Logo.png,NULL,2020-04-14 04:44:20,Checkmate,5
+9,0,categories_picture/Hioki_Logo.png,NULL,2020-04-14 04:44:41,Hioki,7
+10,0,categories_picture/Hotline Maintenance Tools Logo.png,NULL,2020-04-14 04:45:03,Hotline Maintenance Tools,12
+11,0,categories_picture/Distribution_Logo.jpg,NULL,2020-04-14 04:45:33,Distribution Tools and Accessories,13
+13,4,categories_picture/TURA-01_Series.png,NULL,2020-04-14 04:54:57,Single Phase Transformer Turn Ratio Transformer,999
+14,4,categories_picture/TURA-03_series.png,NULL,2020-04-14 04:55:41,Three Phase Transformer Turn Ratio Transformer,999
+15,4,categories_picture/WINRES_Series.png,NULL,2020-04-14 04:56:28,Winding Resistance Tester,999
+16,4,categories_picture/CIBRE-30.png,NULL,2020-04-14 04:57:57,Circuit Breaker Analyzer,999
+17,4,categories_picture/ARES_Series.png,NULL,2020-04-14 04:59:20,Contact Resistance Tester (Micro-Ohmmeter),999
+18,4,categories_picture/VABO_Series.png,NULL,2020-04-14 05:00:05,Vacuum Bottle Tester,999
+21,9,categories_picture/FT6380E10_Clamp_On_Earth_Tester.png,NULL,2020-04-14 05:03:51,Clamp Meter,999
+22,9,categories_picture/DT4200_Digital_Multimeter.png,NULL,2020-04-14 05:04:17,Digital Multimeter,999
+23,9,categories_picture/IR3455E1-69E_High_Voltage_Insulation_Tester.png,NULL,2020-04-14 05:04:41,Insulation Tester,999
+24,9,categories_picture/PQ3198_PQ3100E1-93E_Power_Quality_Analyzer.png,NULL,2020-04-14 05:05:19,Power Quality Analyzer,999
+25,0,categories_picture/raychem_logo-svg.png,NULL,2020-04-15 10:46:07,Raychem,9
+26,0,categories_picture/1_logo.png,NULL,2020-04-16 09:42:35,Ottotecnica,6
+27,0,categories_picture/Logo_Indel.png,NULL,2020-04-18 07:34:09,Indel Bauru,11
+28,26,categories_picture/01.MV_Grounding.png,NULL,2020-04-18 08:47:33,Temporary Grounding,999
+29,26,categories_picture/02.HV_Voltage_Detector_Contact.png,NULL,2020-04-18 08:48:06,Voltage Detector,999
+30,0,categories_picture/LOGO SW - FULL COLOUR (2).jpg,NULL,2020-04-18 08:51:55,Safety Works,8
+31,0,categories_picture/Logo Hacel.png,NULL,2020-04-18 09:00:11,Hacel,10
+34,0,categories_picture/Crysound_Logo.png,NULL,2022-03-12 16:09:24,Crysound,2
+

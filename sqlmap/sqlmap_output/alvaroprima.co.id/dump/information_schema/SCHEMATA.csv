@@ -1,0 +1,4 @@
+SQL_PATH,SCHEMA_NAME,SCHEMA_COMMENT,CATALOG_NAME,DEFAULT_COLLATION_NAME,DEFAULT_CHARACTER_SET_NAME
+NULL,information_schema,<blank>,def,utf8mb3_general_ci,utf8mb3
+NULL,u410070197_alvaro,<blank>,def,utf8mb4_unicode_ci,utf8mb4
+
